@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  font-family: "Proxima Nova Bold";
+  padding: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.headline .logo {
+  width: 500px;
+  margin: 20px;
+}
+
+.headline .items {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.headline .items li {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.headline .items li:hover {
+  border-bottom: 2px solid white;
+}
+
+.headline .items .separator {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+.App-link {
+  color: #09d3ac;
+}

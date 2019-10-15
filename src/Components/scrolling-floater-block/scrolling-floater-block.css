@@ -1,0 +1,61 @@
+
+.scrolling-floater-block {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    color: black;
+}
+
+.scrolling-floater-block .scrolling-floater-placeholder {
+    flex: 1;
+    background-color: black;
+    min-width:400px;
+}
+
+.scrolling-floater-block .scrolling-floater-placeholder .scrolling-floater {
+    position: relative;
+    height: 100vh;
+    background-color:black;
+}
+
+.scrolling-floater-block .scroll-section {
+    flex: 1;
+    min-width:400px;
+}
+
+.scrolling-floater-block .scroll-section .image {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more {
+    color: white;
+    background-color: black;
+    width: 100px;
+    cursor: pointer;
+    padding: 18px;
+    opacity:0;
+    font-size: 14px;
+    transition:all 0.8s ease;
+    text-transform: uppercase;
+}
+
+.image:hover  .more {
+    opacity:0.5 ;
+}
+
+.more:hover {
+    opacity:1!important;
+}
+
+.scrolling-floater .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 34px;
+    height: 100%;
+}
