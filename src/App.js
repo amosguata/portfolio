@@ -1,5 +1,13 @@
 import React from 'react';
 import brush from './Images/brush.jpg'
+import bowl from './Images/bowl.jpg'
+import chair from './Images/chair.jpg'
+import headphons from './Images/headphons.jpg'
+import kettle from './Images/kettle.jpg'
+import stool from './Images/stool.jpg'
+import stools from './Images/stools.png'
+import toaster from './Images/toaster.jpg'
+
 import logo from './Images/kh_logo.png'
 import './App.css';
 import ScrollingFloaterBlock from "./Components/scrolling-floater-block/scrolling-floater-block";
@@ -18,7 +26,11 @@ class App extends React.Component {
                 name: "about",
                 content: {
                     contentType: "text",
-                    value: "about me and beyond"
+                    value: "Hello,\n" +
+                        "My name is klil, I am a designer from israel living in Tel aviv.\n" +
+                        "Graduated from the Shenkar College of Engineering & Design and received my B.Des. degree in industrial design. \n" +
+                        "I aspire to make my design associated with humane feelings and experiences, and I look around me to observe the relationship between people and their objects in order to learn how can we use the great power of design more effectively. \n" +
+                        "Thanks for stopping by.\n"
                 }
             },
                 {
@@ -33,12 +45,55 @@ class App extends React.Component {
                             },
                         },
                             {
-                                image: brush,
-                                name: "brush2",
+                                image: chair,
+                                name: "chair",
                                 clickCallback: () => {
                                     console.log('hello')
                                 }
-                            }]
+                            },
+                            {
+                                image: bowl,
+                                name: "bowl",
+                                clickCallback: () => {
+                                    console.log('hello')
+                                }
+                            },
+                            {
+                                image: headphons,
+                                name: "headphons",
+                                clickCallback: () => {
+                                    console.log('hello')
+                                }
+                            },
+                            {
+                                image: kettle,
+                                name: "kettle",
+                                clickCallback: () => {
+                                    console.log('hello')
+                                }
+                            },
+                            {
+                                image: stool,
+                                name: "stool",
+                                clickCallback: () => {
+                                    console.log('hello')
+                                }
+                            },
+                            {
+                                image: stools,
+                                name: "stools",
+                                clickCallback: () => {
+                                    console.log('hello')
+                                }
+                            },
+                            {
+                                image: toaster,
+                                name: "toaster",
+                                clickCallback: () => {
+                                    console.log('hello')
+                                }
+                            }
+                        ]
                     }
                 },
                 {

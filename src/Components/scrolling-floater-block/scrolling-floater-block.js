@@ -10,9 +10,9 @@ function ScrollingFloaterBlock(props) {
     const [floaterStyle, setFloaterStyle] = useState({top: 0});
 
     function scrollingCallBack() {
-        let placeHolderBoundingClientRect = floaterPlaceHolder.current.getBoundingClientRect();
-        let viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
+        let viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        let placeHolderBoundingClientRect = floaterPlaceHolder.current.getBoundingClientRect();
 
         let isTopOfPlaceHolderInsideOrUnderViewPort = placeHolderBoundingClientRect.top >= 0;
         let isEndOfPlaceHolderOverViewPort = placeHolderBoundingClientRect.height + placeHolderBoundingClientRect.top <= 0;
@@ -20,22 +20,22 @@ function ScrollingFloaterBlock(props) {
         let isEndOfPlaceHolderInsideViewPort = !isEndOfPlaceHolderOverViewPort &&
             (placeHolderBoundingClientRect.height + placeHolderBoundingClientRect.top - viewPortHeight <= 0);
 
-        let newFloaterTopValue = 0;
+        let newFloaterStyle = {};
         if (isTopOfPlaceHolderInsideOrUnderViewPort) {
-            newFloaterTopValue = 0;
+            newFloaterStyle.top = 0;
         } else if (isEndOfPlaceHolderOverViewPort || isEndOfPlaceHolderInsideViewPort) {
-            newFloaterTopValue = placeHolderBoundingClientRect.height - floater.current.getBoundingClientRect().height;
+            newFloaterStyle.top = placeHolderBoundingClientRect.height - floater.current.getBoundingClientRect().height;
         } else {
-            newFloaterTopValue = Math.abs(placeHolderBoundingClientRect.top);
+            newFloaterStyle = { position: 'fixed', top: 0, width: placeHolderBoundingClientRect.width };
         }
 
-        setFloaterStyle({top: newFloaterTopValue});
+        setFloaterStyle(newFloaterStyle);
     }
 
     useLayoutEffect(() => {
         window.addEventListener('scroll', scrollingCallBack);
         return () => window.removeEventListener('scroll', scrollingCallBack)
-    });
+    }, []);
 
     function renderContent(content) {
         // eslint-disable-next-line default-case
