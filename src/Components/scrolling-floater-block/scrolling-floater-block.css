@@ -23,6 +23,27 @@
     min-width:400px;
 }
 
+.scroll-section .text {
+    padding: 100px;
+    font-family: Proxima Nova Regular;
+    font-weight: 500;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.75em;
+}
+
+bold {
+    font-weight: 700;
+}
+
+headline {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text a {
+    color: black;
+}
 .scrolling-floater-block .scroll-section .image {
     background-size: cover;
     height: 100vh;
@@ -59,3 +80,9 @@
     font-size: 34px;
     height: 100%;
 }
+
+
+.scrolling-floater .container .title {
+    text-transform:uppercase;
+}
+

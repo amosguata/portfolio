@@ -4,6 +4,7 @@
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,7 @@
       <workItem from="1571147027193" duration="1300000" />
       <workItem from="1571149231170" duration="154000" />
       <workItem from="1571149401860" duration="344000" />
-      <workItem from="1572700323388" duration="5600000" />
+      <workItem from="1572700323388" duration="8279000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

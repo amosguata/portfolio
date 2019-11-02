@@ -26,11 +26,14 @@ class App extends React.Component {
                 name: "about",
                 content: {
                     contentType: "text",
-                    value: "Hello,\n" +
-                        "My name is klil, I am a designer from israel living in Tel aviv.\n" +
-                        "Graduated from the Shenkar College of Engineering & Design and received my B.Des. degree in industrial design. \n" +
-                        "I aspire to make my design associated with humane feelings and experiences, and I look around me to observe the relationship between people and their objects in order to learn how can we use the great power of design more effectively. \n" +
-                        "Thanks for stopping by.\n"
+                    value: (
+                        <p>
+                            Hello, <br/>
+                            <bold> My name is klil, I am a designer from israel living in Tel aviv. </bold> <br/> <br/>
+                            Graduated from the Shenkar College of Engineering & Design and received my B.Des. degree in industrial design. <br/> <br/>
+                            I aspire to make my design associated with humane feelings and experiences, and I look around me to observe the relationship between people and their objects in order to learn how can we use the great power of design more effectively. <br/> <br/>
+                            Thanks for stopping by.
+                        </p>)
                 }
             },
                 {
@@ -100,7 +103,9 @@ class App extends React.Component {
                     name: "contact",
                     content: {
                         contentType: "text",
-                        value: "mail@mail.com"
+                        value: (<p>
+                                    <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a>
+                                </p>)
                     }
                 }
             ]
