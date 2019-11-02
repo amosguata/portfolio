@@ -1,6 +1,6 @@
 import React from 'react';
 import brush from './Images/brush.jpg'
-import bowl from './Images/bowl.jpg'
+import bowl from './Images/Bowl.jpg'
 import chair from './Images/chair.jpg'
 import headphons from './Images/headphons.jpg'
 import kettle from './Images/kettle.jpg'
