@@ -48,7 +48,7 @@ function ScrollingFloaterBlock(props) {
                         "backgroundImage": 'url(' + value.image + ')'
                     };
                     return (<div className="image" key={value.name} style={imageStyle} >
-                                <div className="more" onClick={value.clickCallback}> more </div>
+                                <div className="more" onClick={() => value.clickCallback(value.additionalInfo)}> more </div>
                             </div>);
                 })
         }
@@ -72,4 +72,4 @@ function ScrollingFloaterBlock(props) {
 }
 
 
-export default ScrollingFloaterBlock;
+    export default ScrollingFloaterBlock;

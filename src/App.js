@@ -8,9 +8,12 @@ import stool from './Images/stool.jpg'
 import stools from './Images/stools.png'
 import toaster from './Images/toaster.jpg'
 
+
+
 import logo from './Images/kh_logo.png'
 import './App.css';
 import ScrollingFloaterBlock from "./Components/scrolling-floater-block/scrolling-floater-block";
+import AdditionalInfoModal from "./Components/addition-info-modal/additional-info-modal";
 import {Link} from 'react-scroll'
 
 
@@ -43,58 +46,76 @@ class App extends React.Component {
                         value: [{
                             image: brush,
                             name: "brush",
-                            clickCallback: () => {
-                                console.log('hello')
+                            clickCallback: (info) => {
+                                this.setState({shouldShowModal: true});
+                                this.state.currentModalContent = info;
                             },
+                            additionalInfo: [
+                                {
+                                    type: "images",
+                                    value: []
+                                },
+                                {
+                                    type: "text",
+                                    value:  "test text"
+                                }
+                            ]
                         },
                             {
                                 image: chair,
                                 name: "chair",
-                                clickCallback: () => {
+                                clickCallback: (info) => {
                                     console.log('hello')
-                                }
+                                },
+                                additionalInfo: []
                             },
                             {
                                 image: bowl,
                                 name: "bowl",
-                                clickCallback: () => {
+                                clickCallback: (info) => {
                                     console.log('hello')
-                                }
+                                },
+                                additionalInfo: []
                             },
                             {
                                 image: headphons,
                                 name: "headphons",
-                                clickCallback: () => {
+                                clickCallback: (info) => {
                                     console.log('hello')
-                                }
+                                },
+                                additionalInfo: []
                             },
                             {
                                 image: kettle,
                                 name: "kettle",
-                                clickCallback: () => {
+                                clickCallback: (info) => {
                                     console.log('hello')
-                                }
+                                },
+                                additionalInfo: []
                             },
                             {
                                 image: stool,
                                 name: "stool",
-                                clickCallback: () => {
+                                clickCallback: (info) => {
                                     console.log('hello')
-                                }
+                                },
+                                additionalInfo: []
                             },
                             {
                                 image: stools,
                                 name: "stools",
-                                clickCallback: () => {
+                                clickCallback: (info) => {
                                     console.log('hello')
-                                }
+                                },
+                                additionalInfo: []
                             },
                             {
                                 image: toaster,
                                 name: "toaster",
-                                clickCallback: () => {
+                                clickCallback: (info) => {
                                     console.log('hello')
-                                }
+                                },
+                                additionalInfo: []
                             }
                         ]
                     }
@@ -109,12 +130,25 @@ class App extends React.Component {
                     }
                 }
             ]
-        }
+        };
+
+        this.state.shouldShowModal = false;
+        this.state.currentModalContent = {};
+
+        this.modalClosed = this.modalClosed.bind(this);
+    }
+
+    modalClosed () {
+        this.setState({shouldShowModal: false });
     }
 
     render() {
         return (
             <div className="App">
+
+                <AdditionalInfoModal shouldShowModal={this.state.shouldShowModal} onCloseModal={this.modalClosed} content={this.state.currentModalContent}>
+                </AdditionalInfoModal>
+
                 <div className="parallax headline">
                     <div>{this.state.headline}</div>
                     <img className="logo" src={this.state.logo} alt="Logo"/>
