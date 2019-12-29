@@ -1,20 +1,18 @@
 @font-face {
-  font-family: Proxima Nova Bold;
-  src: url("/fonts/prixima-nova-bold.ttf") format("truetype");
-  font-weight: 700;
+  font-family: Roboto-Regular;
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
-  font-family: Proxima Nova Regular;
-  src: url("/fonts/prixima-nova-regular.ttf") format("truetype");
-  font-weight: 400;
+  font-family: RobotoSlab-Thin;
+  src: url("/fonts/RobotoSlab-Thin.ttf") format("truetype");
   font-style: normal;
 }
 
 body {
   margin: 0;
-  font-family: "Proxima Nova Regular", Serif;
+  font-family: "Roboto-Regular", Serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #292929;
@@ -26,3 +24,6 @@ code {
     monospace;
 }
 
+ul {
+  padding-inline-start: 0px;
+}

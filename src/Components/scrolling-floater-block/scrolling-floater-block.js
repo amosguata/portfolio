@@ -58,8 +58,8 @@ function ScrollingFloaterBlock(props) {
         <div className="scrolling-floater-block" name={props.value.name}>
             <div className="scrolling-floater-placeholder" ref={floaterPlaceHolder}>
                 <div className="scrolling-floater" ref={floater} style={floaterStyle}>
-                    <div className="container">
-                        <div className="title"> {props.value.name}</div>
+                    <div className="container" style={props.value.containerStyle}>
+                        <div className="title" style={props.value.textStyle}> {props.value.name}</div>
                     </div>
                 </div>
             </div>

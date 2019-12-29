@@ -7,10 +7,8 @@ import kettle from './Images/kettle.jpg'
 import stool from './Images/stool.jpg'
 import stools from './Images/stools.png'
 import toaster from './Images/toaster.jpg'
+import logo from './Images/logo/logo-black.png'
 
-
-
-import logo from './Images/kh_logo.png'
 import './App.css';
 import ScrollingFloaterBlock from "./Components/scrolling-floater-block/scrolling-floater-block";
 import AdditionalInfoModal from "./Components/addition-info-modal/additional-info-modal";
@@ -23,10 +21,13 @@ class App extends React.Component {
         super(props);
 
         this.state = {
-            headline: "Product Designer",
+            headline: "Klil Horesh \n\n" +
+                      "Industrial Designer",
             logo: logo,
             blocks: [{
                 name: "about",
+                containerStyle:{ "background-color" :  "#FF0B9A"},
+                textStyle: {"color" : "white"},
                 content: {
                     contentType: "text",
                     value: (
@@ -41,6 +42,8 @@ class App extends React.Component {
             },
                 {
                     name: "work",
+                    containerStyle:{ "background-color" :  "#FFFFFF"},
+                    textStyle: {"color" : "black"},
                     content: {
                         contentType: "clickableImages",
                         value: [{
@@ -122,6 +125,8 @@ class App extends React.Component {
                 },
                 {
                     name: "contact",
+                    containerStyle:{ "background-color" :  "#1A1A1A"},
+                    textStyle: {"color" : "white"},
                     content: {
                         contentType: "text",
                         value: (<p>
@@ -133,7 +138,7 @@ class App extends React.Component {
         };
 
         this.state.shouldShowModal = false;
-        this.state.currentModalContent = {};
+        this.state.currentModalContent = {content: []};
 
         this.modalClosed = this.modalClosed.bind(this);
     }
@@ -150,14 +155,14 @@ class App extends React.Component {
                 </AdditionalInfoModal>
 
                 <div className="parallax headline">
-                    <div>{this.state.headline}</div>
                     <img className="logo" src={this.state.logo} alt="Logo"/>
+                    <div className="text">{this.state.headline}</div>
                     <ul className="items">
                         {
                             this.state.blocks.map(block =>
                                 <li key={block.name}>
                                     <Link to={block.name} smooth={true} offset={0} duration={500}>
-                                        {block.name}
+                                        <span className="underline">{block.name.substring(0,1)}</span>{block.name.substring(1)}
                                     </Link>
                                 </li>
                             )

@@ -62,6 +62,7 @@ headline {
     font-size: 14px;
     transition:all 0.8s ease;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .image:hover  .more {
@@ -84,5 +85,6 @@ headline {
 
 .scrolling-floater .container .title {
     text-transform:uppercase;
+    font-family: "RobotoSlab-Thin";
 }
 

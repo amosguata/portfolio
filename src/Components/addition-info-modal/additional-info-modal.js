@@ -65,21 +65,22 @@ function AdditionalInfoModal(props) {
     };
 
     function renderModalBody() {
-        return props.content.map((contentItem) => {
-            switch (contentItem.type) {
-                case "text":
-                    return (<div> { contentItem.value } </div>);
-                case "images":
-
-                    let images = {
-                        items: contentItem.images.map(image => <img src={image} onDragStart={handleOnDragStart} className={"carousel-image"}/>)
-                    };
-                    return (<div>
-                                <AliceCarousel mouseTrackingEnabled className={"carousel"} responsive={responsive} buttonsDisabled={true} dotsDisabled={true} items={images}>
-                                </AliceCarousel>
-                            </div>)
-            }
-        });
+        // return props.content.map((contentItem) => {
+        //     console.log(props.content);
+        //     switch (contentItem.type) {
+        //         case "text":
+        //             return (<div> { contentItem.value } </div>);
+        //         case "images":
+        //
+        //             let images = {
+        //                 items: contentItem.images.map(image => <img src={image} onDragStart={handleOnDragStart} className={"carousel-image"}/>)
+        //             };
+        //             return (<div>
+        //                         <AliceCarousel mouseTrackingEnabled className={"carousel"} responsive={responsive} buttonsDisabled={true} dotsDisabled={true} items={images}>
+        //                         </AliceCarousel>
+        //                     </div>)
+        //     }
+        // });
     }
 
     return (<Modal isOpen={props.shouldShowModal} className={"additional-info-modal"} style={customStyles}>
