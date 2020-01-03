@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/RobotoSlab-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/logo/logo-black.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -16,7 +13,14 @@
       <change beforePath="$PROJECT_DIR$/src/Components/addition-info-modal/additional-info-modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/addition-info-modal/additional-info-modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/kh_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/Bowl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/Bowl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/chair.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/chair.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/kettle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/kettle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/stool.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/stool.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/stools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/toaster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/toaster.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,7 +139,10 @@
       <workItem from="1577551622249" duration="1794000" />
       <workItem from="1577553439445" duration="1672000" />
       <workItem from="1577651836889" duration="1788000" />
-      <workItem from="1577653650230" duration="1689000" />
+      <workItem from="1577653650230" duration="1793000" />
+      <workItem from="1577656614040" duration="619000" />
+      <workItem from="1578048997084" duration="971000" />
+      <workItem from="1578051498080" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

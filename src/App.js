@@ -5,9 +5,11 @@ import chair from './Images/chair.jpg'
 import headphons from './Images/headphons.jpg'
 import kettle from './Images/kettle.jpg'
 import stool from './Images/stool.jpg'
-import stools from './Images/stools.png'
+import stools from './Images/stools.jpg'
 import toaster from './Images/toaster.jpg'
+import silo from './Images/silo.jpg'
 import logo from './Images/logo/logo-black.png'
+
 
 import './App.css';
 import ScrollingFloaterBlock from "./Components/scrolling-floater-block/scrolling-floater-block";
@@ -63,34 +65,18 @@ class App extends React.Component {
                                     value:  "test text"
                                 }
                             ]
-                        },
+                            },
+                            {
+                                image: silo,
+                                name: "silo",
+                                clickCallback: (info) => {
+                                    console.log('hello')
+                                },
+                                additionalInfo: []
+                            },
                             {
                                 image: chair,
                                 name: "chair",
-                                clickCallback: (info) => {
-                                    console.log('hello')
-                                },
-                                additionalInfo: []
-                            },
-                            {
-                                image: bowl,
-                                name: "bowl",
-                                clickCallback: (info) => {
-                                    console.log('hello')
-                                },
-                                additionalInfo: []
-                            },
-                            {
-                                image: headphons,
-                                name: "headphons",
-                                clickCallback: (info) => {
-                                    console.log('hello')
-                                },
-                                additionalInfo: []
-                            },
-                            {
-                                image: kettle,
-                                name: "kettle",
                                 clickCallback: (info) => {
                                     console.log('hello')
                                 },
@@ -113,8 +99,33 @@ class App extends React.Component {
                                 additionalInfo: []
                             },
                             {
+                                image: bowl,
+                                name: "bowl",
+                                clickCallback: (info) => {
+                                    console.log('hello')
+                                },
+                                additionalInfo: []
+                            },
+
+                            {
+                                image: kettle,
+                                name: "kettle",
+                                clickCallback: (info) => {
+                                    console.log('hello')
+                                },
+                                additionalInfo: []
+                            },
+                            {
                                 image: toaster,
                                 name: "toaster",
+                                clickCallback: (info) => {
+                                    console.log('hello')
+                                },
+                                additionalInfo: []
+                            },
+                            {
+                                image: headphons,
+                                name: "headphons",
                                 clickCallback: (info) => {
                                     console.log('hello')
                                 },

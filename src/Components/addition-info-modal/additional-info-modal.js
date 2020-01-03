@@ -1,10 +1,7 @@
 import React from 'react';
 import Modal from "react-modal";
 import "react-alice-carousel/lib/alice-carousel.css";
-import  AliceCarousel from "react-alice-carousel"
-import chair from '../../Images/chair.jpg'
 import './additional-info-modal.css'
-import logo from '../../Images/kh_logo.png'
 function AdditionalInfoModal(props) {
 
     function closeModal() {
