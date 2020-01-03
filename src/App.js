@@ -165,7 +165,7 @@ class App extends React.Component {
                 <AdditionalInfoModal shouldShowModal={this.state.shouldShowModal} onCloseModal={this.modalClosed} content={this.state.currentModalContent}>
                 </AdditionalInfoModal>
 
-                <div className="parallax headline">
+                <div className="headline">
                     <img className="logo" src={this.state.logo} alt="Logo"/>
                     <div className="text">{this.state.headline}</div>
                     <ul className="items">
