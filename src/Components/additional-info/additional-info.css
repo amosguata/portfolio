@@ -1,0 +1,64 @@
+.additional-info-modal {
+
+}
+
+.additional-info-modal .carousel {
+
+}
+
+.carousel-image{
+    width: 20vw;
+    min-width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.additional-info-modal .header {
+    text-align: right;
+    margin-bottom: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional-info-modal .header .back {
+    border: solid 0.4px black;
+    border-radius: 70%;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.additional-info-modal .header label{
+    cursor: pointer;
+}
+
+
+.additional-info-modal .content .title .title-headline{
+    font-family: RobotoSlab-Thin, sans-serif;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.additional-info-modal .content .title .title-description {
+    font-size: 28px;
+}
+
+.additional-info-modal .content .subtitle .subtitle-headline{
+    font-family: RobotoSlab-Thin, sans-serif;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.additional-info-modal .content .subtitle .subtitle-description {
+    font-size: 22px;
+}
+
+.additional-info-modal .content * {
+    margin-bottom: 20px;
+}
+
+.additional-info-modal .content .image {
+
+}

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="">
+    <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
+      <change afterPath="$PROJECT_DIR$/src/Components/additional-info/additional-info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Store/portfolio-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -10,11 +13,14 @@
       <change beforePath="$PROJECT_DIR$/public/fonts/prixima-nova-regular.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/addition-info-modal/additional-info-modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/addition-info-modal/additional-info-modal.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -138,7 +144,23 @@
       <workItem from="1578051498080" duration="2273000" />
       <workItem from="1578061758130" duration="1825000" />
       <workItem from="1578063657304" duration="1372000" />
-      <workItem from="1578065741598" duration="1174000" />
+      <workItem from="1578065741598" duration="1792000" />
+      <workItem from="1578067555945" duration="1602000" />
+      <workItem from="1578069381188" duration="1796000" />
+      <workItem from="1578071196002" duration="1550000" />
+      <workItem from="1578143122348" duration="1643000" />
+      <workItem from="1578155329823" duration="1438000" />
+      <workItem from="1578157719096" duration="1519000" />
+      <workItem from="1578159532688" duration="1796000" />
+      <workItem from="1578161355247" duration="1865000" />
+      <workItem from="1578163981045" duration="1367000" />
+      <workItem from="1578165864376" duration="1814000" />
+      <workItem from="1578167739536" duration="1792000" />
+      <workItem from="1578169549957" duration="1789000" />
+      <workItem from="1578171364712" duration="1804000" />
+      <workItem from="1578173221546" duration="1792000" />
+      <workItem from="1578175031984" duration="1822000" />
+      <workItem from="1578176873544" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>
@@ -178,5 +200,16 @@
     <MESSAGE value="changed web site title" />
     <MESSAGE value="changed robots file to forbid crawling this website" />
     <option name="LAST_COMMIT_MESSAGE" value="changed robots file to forbid crawling this website" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Store/portfolio-store-data.js</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {useRef, useLayoutEffect, useState} from 'react'
 import './scrolling-floater-block.css'
-
+import { withRouter } from "react-router";
 
 function ScrollingFloaterBlock(props) {
     // eslint-disable-next-line no-useless-constructor
@@ -48,7 +48,7 @@ function ScrollingFloaterBlock(props) {
                         "backgroundImage": 'url(' + value.image + ')'
                     };
                     return (<div className="image" key={value.name} style={imageStyle} >
-                                <div className="more" onClick={() => value.clickCallback(value.additionalInfo)}> more </div>
+                                <div className="more" onClick={() => props.history.push('/additional-info/' + value.name)}> more </div>
                             </div>);
                 })
         }
@@ -72,4 +72,4 @@ function ScrollingFloaterBlock(props) {
 }
 
 
-    export default ScrollingFloaterBlock;
+export default withRouter(ScrollingFloaterBlock);
