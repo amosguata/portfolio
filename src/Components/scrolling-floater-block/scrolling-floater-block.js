@@ -48,7 +48,11 @@ function ScrollingFloaterBlock(props) {
                         "backgroundImage": 'url(' + value.image + ')'
                     };
                     return (<div className="image" key={value.name} style={imageStyle} >
-                                <div className="more" onClick={() => props.history.push('/additional-info/' + value.name)}> more </div>
+                                <div className="more" onClick={() => props.history.push('/additional-info/' + value.name)}> more
+                                    <div>
+
+                                    </div>
+                                </div>
                             </div>);
                 })
         }
