@@ -28,9 +28,9 @@ function AdditionalInfo(props) {
                     return (<img className="image carousel-cell" key={storedWork.name + "-image"} src={work.value} alt="" >
                             </img>);
                 case "images":
-                    let items =  work.value.map(image => <img alt="" key={storedWork.name + "-" + image.id} src={image.img} className={"carousel-image"}/>);
+                    let items =  work.value.map(image => <img alt="" key={storedWork.name + "-" + image.id} src={image.img} className={"carousel-cell"}/>);
 
-                    return (<Flickity key={storedWork.name + "-carousel"} options={{cellAlign: 'left', prevNextButtons: false, pageDots: false}}>
+                    return (<Flickity key={storedWork.name + "-carousel"} options={{cellAlign: 'left', prevNextButtons: false, pageDots: false, reloadOnUpdate: true}}>
                                 {items}
                             </Flickity>);
                 default:
