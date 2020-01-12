@@ -6,12 +6,13 @@
 
 }
 
+.flickity-viewport {
+    height: 75vh!important;
+}
+
 .carousel-image{
-    width: 33vw;
-    min-width: 200px;
-    margin-right: 10px;
-    margin-left: 10px;
-    cursor: grabbing;
+    height: 100%;
+    cursor: grab;
 }
 
 

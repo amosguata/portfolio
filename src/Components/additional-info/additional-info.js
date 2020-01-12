@@ -1,49 +1,12 @@
 import React from 'react';
-import "react-alice-carousel/lib/alice-carousel.css";
 import './additional-info.css'
-import AliceCarousel from "react-alice-carousel"
 import {portfolioStore} from '../../Store/portfolio-store'
 import { withRouter } from "react-router";
 import ScrollToTopOnMount from "../scroll-to-top/scroll-to-top";
+import Flickity from "react-flickity-component";
+import "flickity/css/flickity.css";
 
 function AdditionalInfo(props) {
-    const handleOnDragStart = (e) => e.preventDefault();
-    const MAX_NUMBER_OF_PICTURES = 3;
-    const responsive = {
-        0: {
-            items: 1
-        },
-        500: {
-            items: 1
-        },
-        750: {
-            items: MAX_NUMBER_OF_PICTURES
-        },
-        1024: {
-            items: MAX_NUMBER_OF_PICTURES
-        },
-        1280: {
-            items: MAX_NUMBER_OF_PICTURES
-        },
-        1400: {
-            items: MAX_NUMBER_OF_PICTURES
-        },
-        1440: {
-            items: MAX_NUMBER_OF_PICTURES
-        },
-        1600: {
-            items: MAX_NUMBER_OF_PICTURES
-        },
-        1920: {
-            items: MAX_NUMBER_OF_PICTURES
-        },
-        2048: {
-            items: MAX_NUMBER_OF_PICTURES
-        },
-        10000: {
-            items: MAX_NUMBER_OF_PICTURES
-        }
-    };
 
     function renderModalBody() {
         let works = portfolioStore.getState().blocks.find(block => block.name === "work");
@@ -62,17 +25,14 @@ function AdditionalInfo(props) {
                         <div className="subtitle-description" key={storedWork.name + "-subtitle-description"}> {work.value.description} </div>
                     </div>);
                 case "image":
-                    return (<img className="image" key={storedWork.name + "-image"} src={work.value} alt="" >
+                    return (<img className="image carousel-cell" key={storedWork.name + "-image"} src={work.value} alt="" >
                             </img>);
                 case "images":
-                    let items =  work.value.map(image => <img alt="" key={storedWork.name + "-" + image.id} src={image.img} onDragStart={handleOnDragStart}
-                                                                    className={"carousel-image"}/>);
+                    let items =  work.value.map(image => <img alt="" key={storedWork.name + "-" + image.id} src={image.img} className={"carousel-image"}/>);
 
-                    return (<div key={storedWork.name + "-carousel"}>
-                        <AliceCarousel mouseTrackingEnabled className={"carousel"} responsive={responsive}
-                                       buttonsDisabled={true} dotsDisabled={true} items={items}>
-                        </AliceCarousel>
-                    </div>);
+                    return (<Flickity key={storedWork.name + "-carousel"} options={{cellAlign: 'left', prevNextButtons: false, pageDots: false}}>
+                                {items}
+                            </Flickity>);
                 default:
                     return (<div> </div>);
             }
