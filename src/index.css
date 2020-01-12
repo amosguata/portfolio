@@ -12,10 +12,10 @@
 
 body {
   margin: 0;
-  font-family: "Roboto-Regular", Serif;
+  font-family: 'Roboto-Regular',serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #292929;
+  background-color: white;
   height: 100%;
 }
 
@@ -25,5 +25,5 @@ code {
 }
 
 ul {
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
 }

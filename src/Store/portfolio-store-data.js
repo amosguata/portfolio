@@ -9,6 +9,44 @@ import stools from '../Images/stools.jpg'
 import toaster from '../Images/toaster.jpg'
 import silo from '../Images/silo.jpg'
 import logo from '../Images/logo/logo-black.png'
+import brush1 from '../Images/brush/brush (1).jpg'
+import brush2 from '../Images/brush/brush (2).jpg'
+import brush3 from '../Images/brush/brush (3).jpg'
+import brush4 from '../Images/brush/brush (4).jpg'
+import brush5 from '../Images/brush/brush (5).jpg'
+import brush6 from '../Images/brush/brush (6).jpg'
+import brush7 from '../Images/brush/brush (7).jpg'
+
+import bowl1 from '../Images/bowl/bowl (1).jpg';
+import bowl2 from '../Images/bowl/bowl (2).jpg';
+import bowl3 from '../Images/bowl/bowl (3).jpg';
+
+import chair1 from '../Images/chair/chair (1).jpg'
+import chair2 from '../Images/chair/chair (2).jpg'
+import chair3 from '../Images/chair/chair (3).jpg'
+
+import kettel1 from '../Images/kettel/kettel (1).jpg';
+import kettel2 from '../Images/kettel/kettel (2).jpg';
+import kettel3 from '../Images/kettel/kettel (3).jpg';
+import kettel4 from '../Images/kettel/kettel (4).jpg';
+
+import stool1 from '../Images/stool/stool (1).jpg';
+import stool2 from '../Images/stool/stool (2).jpg';
+import stool3 from '../Images/stool/stool (3).jpg';
+
+import stools1 from '../Images/stools/stools (1).jpg';
+import stools2 from '../Images/stools/stools (2).jpg';
+import stools3 from '../Images/stools/stools (3).jpg';
+import stools4 from '../Images/stools/stools (4).jpg';
+import stools5 from '../Images/stools/stools (5).jpg';
+import stools6 from '../Images/stools/stools (6).jpg';
+import stools7 from '../Images/stools/stools (7).jpg';
+import stools8 from '../Images/stools/stools (8).jpg';
+import stools9 from '../Images/stools/stools (9).jpg';
+import stools10 from '../Images/stools/stools (10).jpg';
+import stools11 from '../Images/stools/stools (11).jpg';
+import stools12 from '../Images/stools/stools (12).jpg';
+import stools13 from '../Images/stools/stools (13).jpg';
 
 export const portfolioData = {
     headline: "Klil Horesh \n\n" +
@@ -37,93 +75,135 @@ export const portfolioData = {
             content: {
                 contentType: "clickableImages",
                 value: [{
+                    image: silo,
+                    name: "silo",
+                    additionalInfo: []
+                },
+                    {
                     image: brush,
                     name: "brush",
-                    clickCallback: (info) => {
-                        this.setState({shouldShowModal: true});
-                        this.state.currentModalContent = info;
-                    },
                     additionalInfo: [
                         {
                             type: "title",
                             value: {
-                                headline: "test text",
-                                description: "text text"
+                                headline: "DUSTPAN AND BRUSH",
+                                description: "Dirt is a rough unpleasant matter which we want to get rid of it as soon as possible. The brush that I’ve designed is my attempt to bring some elegance and gentleness to the cleaning process."
                             }
                         },
-                        {
-                            type: "image",
-                            value: chair
-                        },
+                        // {
+                        //     type: "image",
+                        //     value: chair
+                        // },
                         {
                             type: "images",
-                            value: [brush, bowl, stool]
-                        },
-                        {
-                            type: "subTitle",
-                            value: {
-                                headline: "test text",
-                                description: "text text"
-                            }
+                            value: [{id: "1", img: brush1}, {id: "2", img: brush2}, {id: "3", img: brush3}, {id: "4", img: brush4}, {id: "5", img: brush5}, {id: "6", img: brush6}, {id: "7", img: brush7} ]
                         }
+                        // {
+                        //     type: "subTitle",
+                        //     value: {
+                        //         headline: "",
+                        //         description: ""
+                        //     }
+                        // }
                     ]
                 },
                     {
-                        image: silo,
-                        name: "silo",
-                        clickCallback: (info) => {
-                            console.log('hello')
+                        image: stools,
+                        name: "stools",
+                        additionalInfo: [{
+                            type: "title",
+                            value: {
+                                headline: "STOOLS",
+                                description: "A series of wall stools.\n" +
+                                    "During my final project in Shenkar, i created a series of stools that interact with the edges of the room and invite the seater to take take a position of a side  observant.\n"
+                            }
                         },
-                        additionalInfo: []
+                            {
+                                type: "images",
+                                value: [{id: "1", img: stools1}, {id: "2", img: stools2}, {id: "3", img: stools3},
+                                    {id: "4", img: stools4}, {id: "5", img: stools5}, {id: "6", img: stools6},
+                                    {id: "7", img: stools7}, {id: "8", img: stools8}, {id: "9", img: stools9},
+                                    {id: "10", img: stools10}, {id: "11", img: stools11}, {id: "12", img: stools12},
+                                    {id: "13", img: stools13}]
+                            }
+                        ]
                     },
+
                     {
                         image: chair,
                         name: "chair",
-                        clickCallback: (info) => {
-                            console.log('hello')
+                        additionalInfo: [{
+                            type: "title",
+                            value: {
+                                headline: "ready made chair",
+                                description: "new chair from old chair. during this 1 week project all students received some old chairs from a garage and remade them."
+                            }
                         },
-                        additionalInfo: []
+                            {
+                                type: "images",
+                                value: [{id: "1", img: chair1}, {id: "2", img: chair2}, {id: "3", img: chair3}]
+                            }
+                        ]
                     },
                     {
                         image: stool,
                         name: "stool",
-                        clickCallback: (info) => {
-                            console.log('hello')
+                        additionalInfo: [{
+                            type: "title",
+                            value: {
+                                headline: "STOOLS",
+                                description: "The main concept was to create a stool that is on the seam line between a sculpture and a product. The stool offers both a high and a low position."
+                            }
                         },
-                        additionalInfo: []
-                    },
-                    {
-                        image: stools,
-                        name: "stools",
-                        clickCallback: (info) => {
-                            console.log('hello')
-                        },
-                        additionalInfo: []
+                            {
+                                type: "images",
+                                value: [{id: "1", img: stool1}, {id: "2", img: stool2}, {id: "3", img: stool3}]
+                            }
+                        ]
                     },
                     {
                         image: bowl,
                         name: "bowl",
-                        clickCallback: (info) => {
-                            console.log('hello')
+                        additionalInfo: [{
+                            type: "title",
+                            value: {
+                                headline: "BOWL",
+                                description: "The inspiration to this project came from Japanese  origami. The idea was to make a bowl that is light as paper made of a heavy substance."
+                            }
                         },
-                        additionalInfo: []
+                            {
+                                type: "images",
+                                value: [{id: "1", img: bowl1}, {id: "2", img: bowl2}, {id: "3", img: bowl3}]
+                            }
+                        ]
                     },
-
                     {
                         image: kettle,
                         name: "kettle",
-                        clickCallback: (info) => {
-                            console.log('hello')
+                        additionalInfo: [{
+                            type: "title",
+                            value: {
+                                headline: "KETTEL",
+                                description: "The action of pouring the boiling water into the cup was my focus on this project. I designed a prominent nozzle that creates a flat water flow and a conic kettle body to direct the eye to it."
+                            }
                         },
-                        additionalInfo: []
+                            {
+                                type: "images",
+                                value: [{id: "1", img: kettel1}, {id: "2", img: kettel2}, {id: "3", img: kettel3}, {id: "4", img: kettel4}]
+                            }
+                        ]
                     },
                     {
                         image: toaster,
                         name: "toaster",
-                        clickCallback: (info) => {
-                            console.log('hello')
-                        },
-                        additionalInfo: []
+                        additionalInfo: [{
+                            type: "title",
+                            value: {
+                                headline: "TOASTER",
+                                description: "A single slice of bread toaster"
+                            }
+                        }
+                        ]
                     },
                     {
                         image: headphons,

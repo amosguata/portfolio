@@ -7,10 +7,11 @@
 }
 
 .carousel-image{
-    width: 20vw;
+    width: 33vw;
     min-width: 200px;
     margin-right: 10px;
     margin-left: 10px;
+    cursor: grabbing;
 }
 
 

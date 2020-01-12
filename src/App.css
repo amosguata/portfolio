@@ -44,7 +44,7 @@
 }
 
 .headline .items li:hover span {
-  border-bottom-color: yellow ;
+  border-bottom-color: rgb(255, 11, 154) ;
 }
 
 .headline .items li .underline {

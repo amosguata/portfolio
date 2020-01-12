@@ -2,20 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/scroll-to-top/scroll-to-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/bowl/bowl (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/bowl/bowl (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/bowl/bowl (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/bowl/bowl (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/brush/brush (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/brush/brush (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/brush/brush (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/brush/brush (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/brush/brush (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/brush/brush (6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/brush/brush (7).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/chair/chair (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/chair/chair (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/chair/chair (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/kettel/kettel (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/kettel/kettel (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/kettel/kettel (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/kettel/kettel (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stool/stool (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stool/stool (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stool/stool (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (10).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (11).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (12).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (13).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (7).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (8).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/stools/stools (9).jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/prixima-nova-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/prixima-nova-regular.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/additional-info/additional-info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/additional-info/additional-info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/additional-info/additional-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/additional-info/additional-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/stool.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/stool.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/stools.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +71,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/logo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/chair" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,14 +83,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stools" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stool" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images" />
       <recent name="C:\Users\Amos\WebstormProjects\klil-profile\src\Components\scrolling-floater-block" />
       <recent name="C:\Users\Amos\WebstormProjects\klil-profile\src\Images" />
-      <recent name="C:\Users\Amos\WebstormProjects\klil-profile\public\fonts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\chair" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\kettel" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\bowl" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\brush" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\logo" />
-      <recent name="C:\Users\Amos\WebstormProjects\klil-profile\public\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,7 +191,13 @@
       <workItem from="1578175031984" duration="1822000" />
       <workItem from="1578176873544" duration="1631000" />
       <workItem from="1578674560897" duration="1767000" />
-      <workItem from="1578676462096" duration="748000" />
+      <workItem from="1578676462096" duration="1877000" />
+      <workItem from="1578727381179" duration="1942000" />
+      <workItem from="1578730450402" duration="1085000" />
+      <workItem from="1578751108518" duration="1791000" />
+      <workItem from="1578752917826" duration="1120000" />
+      <workItem from="1578860502684" duration="1785000" />
+      <workItem from="1578862324038" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>
@@ -197,16 +237,5 @@
     <MESSAGE value="changed web site title" />
     <MESSAGE value="changed robots file to forbid crawling this website" />
     <option name="LAST_COMMIT_MESSAGE" value="changed robots file to forbid crawling this website" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Store/portfolio-store-data.js</url>
-          <line>36</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
