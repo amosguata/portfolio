@@ -128,7 +128,6 @@ export const portfolioData = {
                             }
                         ]
                     },
-
                     {
                         image: chair,
                         name: "chair",
@@ -196,14 +195,7 @@ export const portfolioData = {
                     {
                         image: toaster,
                         name: "toaster",
-                        additionalInfo: [{
-                            type: "title",
-                            value: {
-                                headline: "TOASTER",
-                                description: "A single slice of bread toaster"
-                            }
-                        }
-                        ]
+                        additionalInfo: null
                     },
                     {
                         image: headphons,
@@ -211,7 +203,7 @@ export const portfolioData = {
                         clickCallback: (info) => {
                             console.log('hello')
                         },
-                        additionalInfo: []
+                        additionalInfo: null
                     }
                 ]
             }

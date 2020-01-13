@@ -6,12 +6,8 @@
 
 }
 
-.flickity-viewport {
-    height: 75vh!important;
-}
-
 .carousel-cell{
-    height: 100%;
+    height: 75vh;
     cursor: grab;
 }
 
