@@ -7,8 +7,9 @@
 }
 
 .carousel-cell{
-    height: 75vh;
+    max-height: 75vh;
     cursor: grab;
+    max-width:100vw;
 }
 
 
