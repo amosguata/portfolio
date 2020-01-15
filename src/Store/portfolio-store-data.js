@@ -19,6 +19,7 @@ import brush6 from '../Images/brush/brush (6).jpg'
 import bowl1 from '../Images/bowl/bowl (1).jpg';
 import bowl2 from '../Images/bowl/bowl (2).jpg';
 import bowl3 from '../Images/bowl/bowl (3).jpg';
+import bowl4 from '../Images/bowl/bowl (4).jpg';
 
 import chair1 from '../Images/chair/chair (1).jpg'
 import chair2 from '../Images/chair/chair (2).jpg'
@@ -167,7 +168,7 @@ export const portfolioData = {
                         },
                             {
                                 type: "images",
-                                value: [{id: "1", img: bowl1}, {id: "2", img: bowl2}, {id: "3", img: bowl3}]
+                                value: [{id: "1", img: bowl1}, {id: "2", img: bowl2}, {id: "3", img: bowl3}, {id: "4", img: bowl4}]
                             }
                         ]
                     },
