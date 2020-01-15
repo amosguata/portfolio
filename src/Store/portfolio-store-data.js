@@ -15,7 +15,6 @@ import brush3 from '../Images/brush/brush (3).jpg'
 import brush4 from '../Images/brush/brush (4).jpg'
 import brush5 from '../Images/brush/brush (5).jpg'
 import brush6 from '../Images/brush/brush (6).jpg'
-import brush7 from '../Images/brush/brush (7).jpg'
 
 import bowl1 from '../Images/bowl/bowl (1).jpg';
 import bowl2 from '../Images/bowl/bowl (2).jpg';
@@ -23,7 +22,6 @@ import bowl3 from '../Images/bowl/bowl (3).jpg';
 
 import chair1 from '../Images/chair/chair (1).jpg'
 import chair2 from '../Images/chair/chair (2).jpg'
-import chair3 from '../Images/chair/chair (3).jpg'
 
 import kettel1 from '../Images/kettel/kettel (1).jpg';
 import kettel2 from '../Images/kettel/kettel (2).jpg';
@@ -45,8 +43,6 @@ import stools8 from '../Images/stools/stools (8).jpg';
 import stools9 from '../Images/stools/stools (9).jpg';
 import stools10 from '../Images/stools/stools (10).jpg';
 import stools11 from '../Images/stools/stools (11).jpg';
-import stools12 from '../Images/stools/stools (12).jpg';
-import stools13 from '../Images/stools/stools (13).jpg';
 
 export const portfolioData = {
     headline: "Klil Horesh \n\n" +
@@ -96,7 +92,7 @@ export const portfolioData = {
                         // },
                         {
                             type: "images",
-                            value: [{id: "1", img: brush1}, {id: "2", img: brush2}, {id: "3", img: brush3}, {id: "4", img: brush4}, {id: "5", img: brush5}, {id: "6", img: brush6}, {id: "7", img: brush7} ]
+                            value: [{id: "1", img: brush1}, {id: "2", img: brush2}, {id: "3", img: brush3}, {id: "4", img: brush4}, {id: "5", img: brush5}, {id: "6", img: brush6}]
                         }
                         // {
                         //     type: "subTitle",
@@ -123,8 +119,7 @@ export const portfolioData = {
                                 value: [{id: "1", img: stools1}, {id: "2", img: stools2}, {id: "3", img: stools3},
                                     {id: "4", img: stools4}, {id: "5", img: stools5}, {id: "6", img: stools6},
                                     {id: "7", img: stools7}, {id: "8", img: stools8}, {id: "9", img: stools9},
-                                    {id: "10", img: stools10}, {id: "11", img: stools11}, {id: "12", img: stools12},
-                                    {id: "13", img: stools13}]
+                                    {id: "10", img: stools10}, {id: "11", img: stools11}]
                             }
                         ]
                     },
@@ -140,7 +135,7 @@ export const portfolioData = {
                         },
                             {
                                 type: "images",
-                                value: [{id: "1", img: chair1}, {id: "2", img: chair2}, {id: "3", img: chair3}]
+                                value: [{id: "1", img: chair1}, {id: "2", img: chair2}]
                             }
                         ]
                     },
