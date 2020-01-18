@@ -1,63 +1,23 @@
-.additional-info-modal {
-
+.additional-info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.additional-info-modal .carousel {
-
+.additional-info-content .image {
+    height: 75vh;
 }
 
-.carousel-cell{
+
+.additional-info-content .flicktiy-carousel {
+    width: 100vw;
+}
+
+.additional-info-content .flicktiy-carousel .carousel-cell{
     max-height: 75vh;
     cursor: grab;
     max-width:100vw;
 }
 
 
-.additional-info-modal .header {
-    text-align: right;
-    margin-bottom: 10px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.additional-info-modal .header .back {
-    border: solid 0.4px black;
-    border-radius: 70%;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-
-.additional-info-modal .header label{
-    cursor: pointer;
-}
-
-
-.additional-info-modal .content .title .title-headline{
-    font-family: RobotoSlab-Thin, sans-serif;
-    font-size: 36px;
-    text-transform: capitalize;
-}
-
-.additional-info-modal .content .title .title-description {
-    font-size: 28px;
-}
-
-.additional-info-modal .content .subtitle .subtitle-headline{
-    font-family: RobotoSlab-Thin, sans-serif;
-    font-size: 28px;
-    text-transform: capitalize;
-}
-
-.additional-info-modal .content .subtitle .subtitle-description {
-    font-size: 22px;
-}
-
-.additional-info-modal .content * {
-    margin-bottom: 20px;
-}
-
-.additional-info-modal .content .image {
-
-}

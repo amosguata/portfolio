@@ -45,6 +45,19 @@ import stools9 from '../Images/stools/stools (9).jpg';
 import stools10 from '../Images/stools/stools (10).jpg';
 import stools11 from '../Images/stools/stools (11).jpg';
 
+import silo1 from '../Images/silo/gallary/silo (1).jpg'
+import silo2 from '../Images/silo/gallary/silo (2).jpg'
+import silo3 from '../Images/silo/gallary/silo (3).jpg'
+import silo4 from '../Images/silo/gallary/silo (4).jpg'
+import silo5 from '../Images/silo/gallary/silo (5).jpg'
+import silo6 from '../Images/silo/gallary/silo (6).jpg'
+import silo7 from '../Images/silo/gallary/silo (7).jpg'
+
+import siloGif1 from '../Images/silo/gifs/gif (1).gif'
+import siloGif2 from '../Images/silo/gifs/gif (2).gif'
+import siloGif3 from '../Images/silo/gifs/gif (3).gif'
+
+
 export const portfolioData = {
     headline: "Klil Horesh \n\n" +
         "Industrial Designer",
@@ -74,7 +87,31 @@ export const portfolioData = {
                 value: [{
                     image: silo,
                     name: "silo",
-                    additionalInfo: []
+                    additionalInfo:
+                        [{
+                        type: "title",
+                        value: {
+                            headline: "Silo",
+                            description: "Silo"
+                        }
+                    },
+                        {
+                            type: "images",
+                            value: [{id: "1", img: silo1}, {id: "2", img: silo2}, {id: "3", img: silo3}, {id: "4", img: silo4}, {id: "5", img: silo5}, {id: "6", img: silo6}, {id: "7", img: silo7}]
+                        },
+                        {
+                            type: "image",
+                            value: siloGif1
+                        },
+                        {
+                            type: "image",
+                            value: siloGif2
+                        },
+                        {
+                            type: "image",
+                            value: siloGif3
+                        }
+                    ]
                 },
                     {
                     image: brush,

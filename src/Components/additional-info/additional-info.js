@@ -25,13 +25,13 @@ function AdditionalInfo(props) {
                         <div className="subtitle-description" key={storedWork.name + "-subtitle-description"}> {work.value.description} </div>
                     </div>);
                 case "image":
-                    return (<img className="image carousel-cell" key={storedWork.name + "-image"} src={work.value} alt="" >
+                    return (<img className="image" key={storedWork.name + "-image"} src={work.value} alt="" >
                             </img>);
                 case "images":
                     let items =  work.value.map(image => <img alt="" key={storedWork.name + "-" + image.id} src={image.img} className={"carousel-cell"}/>);
 
-                    return (<Flickity key={storedWork.name + "-carousel"} options={{cellAlign: 'left', prevNextButtons: false, pageDots: false, reloadOnUpdate: true}}>
-                                {items}
+                    return (<Flickity className="flicktiy-carousel" key={storedWork.name + "-carousel"} options={{cellAlign: 'left', prevNextButtons: false, pageDots: false, reloadOnUpdate: true}}>
+                                    {items}
                             </Flickity>);
                 default:
                     return (<div> </div>);
@@ -41,7 +41,7 @@ function AdditionalInfo(props) {
 
     return (<div>
                 <ScrollToTopOnMount/>
-                <div className="content">
+                <div className="additional-info-content">
                     {renderModalBody()}
                 </div>
             </div>)
