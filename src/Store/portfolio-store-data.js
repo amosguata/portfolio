@@ -56,6 +56,18 @@ import silo7 from '../Images/silo/gallary/silo (7).jpg'
 import siloGif1 from '../Images/silo/gifs/gif (1).gif'
 import siloGif2 from '../Images/silo/gifs/gif (2).gif'
 import siloGif3 from '../Images/silo/gifs/gif (3).gif'
+import siloOpeningImage from '../Images/silo/images/opening.jpg'
+import siloDesignGuidlines from '../Images/silo/images/design-guidelines.jpg'
+import siloEarlyExploration from '../Images/silo/images/early-exploration.jpg'
+
+import brushSmall from '../Images/smallImages/brush.jpg'
+import bowlSmall from '../Images/smallImages/bowl.jpg'
+import chairSmall from '../Images/smallImages/chair.jpg'
+import kettleSmall from '../Images/smallImages/kettel.jpg'
+import stoolSmall from '../Images/smallImages/stool.jpg'
+import stoolsSmall from '../Images/smallImages/stools.jpg'
+import toasterSmall from '../Images/smallImages/toaster.jpg'
+import siloSmall from '../Images/smallImages/silo.jpg'
 
 
 export const portfolioData = {
@@ -85,36 +97,108 @@ export const portfolioData = {
             content: {
                 contentType: "clickableImages",
                 value: [{
-                    image: silo,
+                    image: { regularImage: silo, smallImage: siloSmall },
                     name: "silo",
                     additionalInfo:
-                        [{
+                        [
+                         {
                         type: "title",
                         value: {
                             headline: "Silo",
-                            description: "Silo"
+                            description: "Simple vacuum-sealing container system that keeps fresher, longer."
                         }
                     },
-                        {
+                         {
+                                type: "image",
+                                value: siloOpeningImage
+                            },
+                         {
+                                type: "subTitle",
+                                value: {
+                                    headline: "Overview",
+                                    description: "Food waste is a global epidemic." +
+                                        "According to a recent study by Boston Consulting Group, each year 1.6 billion tons of food" +
+                                        "worth about $1.2 trillion are lost or go to waste. Most of this waste happens at the" +
+                                        "consumer level with more than 40% of household food going bad. "
+                                }
+                        },
+                         {
+                                type: "subTitle",
+                                value: {
+                                    headline: "Role & Duration",
+
+                                    description: (<div><span style={{'fontFamily': 'SourceSans-Bold, sans-serif'}}> Junior designer  </span>
+                                        <span style={{'fontFamily': 'SourceSans-Light, sans-serif'}}>| 2017 - 2018 </span>
+                                        <br/>
+                                        <span style={{'fontFamily': 'SourceSans-Bold, sans-serif'}}> Designer & project manager </span>
+                                        <span style={{'fontFamily': 'SourceSans-Light, sans-serif'}}>| 2018 - current </span>
+                                        <br/>
+                                    </div>)
+                                }
+                            },
+                         {
                             type: "images",
                             value: [{id: "1", img: silo1}, {id: "2", img: silo2}, {id: "3", img: silo3}, {id: "4", img: silo4}, {id: "5", img: silo5}, {id: "6", img: silo6}, {id: "7", img: silo7}]
                         },
-                        {
+                         {
+                                type: "subTitle",
+                                value: {
+                                    headline: "The Problem",
+                                    description: "Food waste is a global epidemic." +
+                                        "According to a recent study by Boston Consulting Group, each year 1.6 billion tons of food" +
+                                        "worth about $1.2 trillion are lost or go to waste. Most of this waste happens at the" +
+                                        "consumer level with more than 40% of household food going bad."
+                                }
+                            },
+                         {
+                                type: "subTitle",
+                                value: {
+                                    headline: "The Solution",
+                                    description: "simple vacuum-sealing container system that is easy to use on a daily basis and " +
+                                        "encourages the user engagement. a product that integrates with the kitchen environment " +
+                                        "in a smart way that takes into acount that the kitchen’s counterspace is an expensive real " +
+                                        "estate. "
+                                }
+                            },
+                         {
                             type: "image",
                             value: siloGif1
                         },
-                        {
+                         {
                             type: "image",
                             value: siloGif2
                         },
-                        {
+                         {
                             type: "image",
                             value: siloGif3
-                        }
+                        },
+                         {
+                            type: "subTitle",
+                            value: {
+                                headline: "Design Guidelines",
+                                description: ""
+                            }
+                        },
+                        {
+                                type: "image",
+                                value: siloDesignGuidlines
+                        },
+                        {
+                            type: "subTitle",
+                            value: {
+                                headline: "Early Explorations",
+                                description: ""
+                            }
+                        },
+                        {
+                                type: "image",
+                                value: siloEarlyExploration
+                            }
+
                     ]
                 },
                     {
-                    image: brush,
+                    image: { regularImage: brush, smallImage: brushSmall },
                     name: "brush",
                     additionalInfo: [
                         {
@@ -142,7 +226,7 @@ export const portfolioData = {
                     ]
                 },
                     {
-                        image: stools,
+                        image: { regularImage: stools, smallImage: stoolsSmall },
                         name: "stools",
                         additionalInfo: [{
                             type: "title",
@@ -162,7 +246,7 @@ export const portfolioData = {
                         ]
                     },
                     {
-                        image: chair,
+                        image: { regularImage: chair, smallImage: chairSmall },
                         name: "chair",
                         additionalInfo: [{
                             type: "title",
@@ -178,7 +262,7 @@ export const portfolioData = {
                         ]
                     },
                     {
-                        image: stool,
+                        image: { regularImage: stool, smallImage: stoolSmall },
                         name: "stool",
                         additionalInfo: [{
                             type: "title",
@@ -194,7 +278,7 @@ export const portfolioData = {
                         ]
                     },
                     {
-                        image: bowl,
+                        image: { regularImage: bowl, smallImage: bowlSmall },
                         name: "bowl",
                         additionalInfo: [{
                             type: "title",
@@ -210,7 +294,7 @@ export const portfolioData = {
                         ]
                     },
                     {
-                        image: kettle,
+                        image: { regularImage: kettle, smallImage: kettleSmall },
                         name: "kettle",
                         additionalInfo: [{
                             type: "title",
@@ -226,16 +310,13 @@ export const portfolioData = {
                         ]
                     },
                     {
-                        image: toaster,
+                        image: { regularImage: toaster, smallImage: toasterSmall },
                         name: "toaster",
                         additionalInfo: null
                     },
                     {
-                        image: headphons,
+                        image: { regularImage: headphons, smallImage: headphons },
                         name: "headphons",
-                        clickCallback: (info) => {
-                            console.log('hello')
-                        },
                         additionalInfo: null
                     }
                 ]

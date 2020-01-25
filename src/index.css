@@ -10,6 +10,30 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: PTSerif-Regular;
+  src: url("/fonts/PTSerif-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SourceSans-Regular;
+  src: url("/fonts/SourceSans-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SourceSans-Light;
+  src: url("/fonts/SourceSans-Light.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SourceSans-Bold;
+  src: url("/fonts/SourceSans-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto-Regular',serif;

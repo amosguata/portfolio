@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gallary/silo (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gallary/silo (2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gallary/silo (3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gallary/silo (4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gallary/silo (5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gallary/silo (6).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gallary/silo (7).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gifs/gif (1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gifs/gif (2).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/silo/gifs/gif (3).gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/PTSerif-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/silo/images/design-guidelines.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/silo/images/early-exploration.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/silo/images/opening.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/smallImages/bowl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/smallImages/brush.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/smallImages/chair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/smallImages/kettel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/smallImages/silo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/smallImages/stool.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/smallImages/stools.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/smallImages/toaster.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -26,6 +31,8 @@
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/silo/gallary/silo (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/silo/gallary/silo (2).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/silo/gallary/silo (7).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/silo/gallary/silo (7).jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
@@ -54,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/chair" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/silo/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,18 +73,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\images" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\chair" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\kettel" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\bowl" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\brush" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\logo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\fonts" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\gallary" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stools" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stool" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images" />
-      <recent name="C:\Users\Amos\WebstormProjects\klil-profile\src\Components\scrolling-floater-block" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,7 +199,23 @@
       <workItem from="1579268499858" duration="976000" />
       <workItem from="1579356760021" duration="1917000" />
       <workItem from="1579362627447" duration="1794000" />
-      <workItem from="1579364699694" duration="531000" />
+      <workItem from="1579364699694" duration="1487000" />
+      <workItem from="1579379933748" duration="1109000" />
+      <workItem from="1579865233855" duration="2064000" />
+      <workItem from="1579873550177" duration="1810000" />
+      <workItem from="1579875378523" duration="1262000" />
+      <workItem from="1579878192069" duration="657000" />
+      <workItem from="1579880929873" duration="2376000" />
+      <workItem from="1579884270918" duration="1914000" />
+      <workItem from="1579886390253" duration="1907000" />
+      <workItem from="1579962408697" duration="1789000" />
+      <workItem from="1579964221374" duration="1649000" />
+      <workItem from="1579966474282" duration="1924000" />
+      <workItem from="1579968421005" duration="1791000" />
+      <workItem from="1579970233335" duration="658000" />
+      <workItem from="1579972441943" duration="1866000" />
+      <workItem from="1579974329719" duration="1789000" />
+      <workItem from="1579976138539" duration="1337000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

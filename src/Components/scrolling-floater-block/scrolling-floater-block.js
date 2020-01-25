@@ -45,18 +45,40 @@ function ScrollingFloaterBlock(props) {
             case "clickableImages":
                 return props.value.content.value.map(value => {
                     let imageStyle = {
-                        "backgroundImage": 'url(' + value.image + ')'
+                        "backgroundImage": 'url(' + value.image.regularImage + ')'
                     };
                     return (<div className="image" key={value.name} style={imageStyle} >
                         { value.additionalInfo &&
-                            <div className="more"
-                                 onClick={() => props.history.push('/additional-info/' + value.name)}> more
-                                <div>
+                                        <div className="more"
+                                             onClick={() => props.history.push('/additional-info/' + value.name)}> more
+                                            <div>
 
-                                </div>
-                            </div>
-                        }
-                            </div>);
+                                            </div>
+                                        </div>
+                                    }
+                    </div>);
+                    // const srcset = value.image.regularImage + ' 530w, ' + value.image.smallImage + ' 240w';
+                    // const sizes = "(min-width 240px) 240px, 100vw";
+                    //
+                    // return (
+                    //         <img className="image" key={value.name} srcSet={srcset} sizes={sizes}>
+                    //         </img>
+                    //     );
+
+                    // return (
+                    //     <div className="image-wrapper">
+                    //     <img className="image" key={value.name} srcSet={srcset} sizes={sizes}>
+                    //     </img>
+                    //         { value.additionalInfo &&
+                    //             <div className="more"
+                    //                  onClick={() => props.history.push('/additional-info/' + value.name)}> more
+                    //                 <div>
+                    //
+                    //                 </div>
+                    //             </div>
+                    //         }
+                    //
+                    //     </div>);
                 })
         }
     }
