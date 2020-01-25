@@ -23,6 +23,7 @@
     max-height: 75vh;
     cursor: grab;
     max-width:100vw;
+    height: 75vh;
 }
 .additional-info-content .title {
 }
