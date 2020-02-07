@@ -56,6 +56,9 @@ import silo7 from '../Images/silo/gallary/silo (7).jpg'
 import siloGif1 from '../Images/silo/gifs/gif (1).gif'
 import siloGif2 from '../Images/silo/gifs/gif (2).gif'
 import siloGif3 from '../Images/silo/gifs/gif (3).gif'
+import siloGif4 from '../Images/silo/gifs/gif (4).gif'
+import siloGif5 from '../Images/silo/gifs/gif (5).gif'
+import siloGif6 from '../Images/silo/gifs/gif (6).gif'
 import siloOpeningImage from '../Images/silo/images/opening.jpg'
 import siloDesignGuidlines from '../Images/silo/images/design-guidelines.jpg'
 import siloEarlyExploration from '../Images/silo/images/early-exploration.jpg'
@@ -105,7 +108,7 @@ export const portfolioData = {
                         type: "title",
                         value: {
                             headline: "Silo",
-                            description: "Simple vacuum-sealing container system that keeps fresher, longer."
+                            description: "Simple vacuum-sealing container system that keeps food fresher, longer."
                         }
                     },
                          {
@@ -169,32 +172,52 @@ export const portfolioData = {
                             value: siloGif2
                         },
                          {
-                            type: "image",
-                            value: siloGif3
-                        },
+                                type: "image",
+                                value: siloGif3
+                            },
                          {
-                            type: "subTitle",
-                            value: {
-                                headline: "Design Guidelines",
-                                description: ""
-                            }
-                        },
-                        {
-                                type: "image",
-                                value: siloDesignGuidlines
-                        },
-                        {
-                            type: "subTitle",
-                            value: {
-                                headline: "Early Explorations",
-                                description: ""
-                            }
-                        },
-                        {
-                                type: "image",
-                                value: siloEarlyExploration
-                            }
-
+                                type: "group",
+                                name: "Design guide lines",
+                                value: [{
+                                    type: "subTitle",
+                                    value: {
+                                        headline: "Design Guidelines",
+                                        description: ""
+                                    }
+                                },
+                                    {
+                                        type: "image",
+                                        value: siloDesignGuidlines
+                                    }]
+                            },
+                         {
+                                type: "group",
+                                name: "Early exploration",
+                                value: [{
+                                    type: "subTitle",
+                                    value: {
+                                        headline: "Early Explorations",
+                                        description: ""
+                                    }
+                                },
+                                    {
+                                        type: "image",
+                                        value: siloEarlyExploration
+                                    }
+                                ]
+                            },
+                         {
+                            type: "image",
+                            value: siloGif4
+                         },
+                         {
+                            type: "image",
+                            value: siloGif5
+                         },
+                         {
+                            type: "image",
+                            value: siloGif6
+                         },
                     ]
                 },
                     {
@@ -208,21 +231,10 @@ export const portfolioData = {
                                 description: "Dirt is a rough unpleasant matter which we want to get rid of it as soon as possible. The brush that I’ve designed is my attempt to bring some elegance and gentleness to the cleaning process."
                             }
                         },
-                        // {
-                        //     type: "image",
-                        //     value: chair
-                        // },
                         {
                             type: "images",
                             value: [{id: "1", img: brush1}, {id: "2", img: brush2}, {id: "3", img: brush3}, {id: "4", img: brush4}, {id: "5", img: brush5}, {id: "6", img: brush6}]
                         }
-                        // {
-                        //     type: "subTitle",
-                        //     value: {
-                        //         headline: "",
-                        //         description: ""
-                        //     }
-                        // }
                     ]
                 },
                     {
@@ -233,7 +245,7 @@ export const portfolioData = {
                             value: {
                                 headline: "STOOLS",
                                 description: "A series of wall stools.\n" +
-                                    "During my final project in Shenkar, i created a series of stools that interact with the edges of the room and invite the seater to take take a position of a side  observant.\n"
+                                    "During my final project in Shenkar, I created a series of stools that interact with the edges of the room and invite the seater to take a position of a side observant.\n"
                             }
                         },
                             {
