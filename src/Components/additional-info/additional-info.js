@@ -3,8 +3,7 @@ import './additional-info.css'
 import {portfolioStore} from '../../Store/portfolio-store'
 import { withRouter } from "react-router";
 import ScrollToTopOnMount from "../scroll-to-top/scroll-to-top";
-import Flickity from "react-flickity-component";
-import "flickity/css/flickity.css";
+import ImageGallery from '../image-gallary/image-gallary';
 
 function AdditionalInfo(props) {
 
@@ -32,14 +31,10 @@ function AdditionalInfo(props) {
                 return (<img className="image" key={"image-" + id.toString()} src={elementValue} alt="" >
                 </img>);
             case "images":
-                let items =  elementValue.map(image => <img alt="" key={ "gallery-image-" + image.id} src={image.img} className={"carousel-cell"}/>);
-
-                return (<Flickity className="flicktiy-carousel" key={"carousel-" + id.toString()} options={{cellAlign: 'left', prevNextButtons: false, pageDots: false, reloadOnUpdate: true}}>
-                    {items}
-                </Flickity>);
+                return (<ImageGallery images={elementValue} id={id} key={"image-gallary" + id.toString()}> </ImageGallery>);
             case "group":
                 let groupItems =  elementValue.map((element, index) => renderSpecificIElement(element.type, element.value,id + "-" + index));
-                return <div className="group" key={"group-" + id}> {groupItems} </div>
+                return <div className="group" key={"group-" + id}> {groupItems} </div>;
             default:
                 return (<div> </div>);
         }

@@ -20,18 +20,6 @@
     margin-bottom: 12vh;
 }
 
-
-.additional-info-content .flicktiy-carousel {
-    width: 100vw;
-}
-
-.additional-info-content .flicktiy-carousel .carousel-cell{
-    max-height: 75vh;
-    cursor: grab;
-    max-width:100vw;
-    height: 75vh;
-    margin-right: 5px;
-}
 .additional-info-content .title {
     width: 65vw;
 }
