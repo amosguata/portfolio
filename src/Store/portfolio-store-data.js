@@ -197,12 +197,14 @@ export const portfolioData = {
                                     type: "subTitle",
                                     value: {
                                         headline: "Early Explorations",
-                                        description: ""
-                                    }
+                                        description: "",
+                                    },
+                                    customStyle: {"marginLeft": "8.5vw"}
                                 },
                                     {
                                         type: "image",
-                                        value: siloEarlyExploration
+                                        value: siloEarlyExploration,
+                                        customStyle: {"width": "82vw"}
                                     }
                                 ]
                             },

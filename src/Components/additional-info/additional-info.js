@@ -12,29 +12,30 @@ function AdditionalInfo(props) {
         let storedWork = works.content.value.find(work => work.name === props.match.params.workName);
         let workAdditionalInfo = storedWork.additionalInfo;
         return workAdditionalInfo.map((additionalInfoItem, index) => {
-            return renderSpecificIElement(additionalInfoItem.type, additionalInfoItem.value, index);
+            return renderSpecificIElement(additionalInfoItem.type, additionalInfoItem.value, additionalInfoItem.customStyle ,index);
         });
     }
-    function renderSpecificIElement (elementType, elementValue, id) {
+    function renderSpecificIElement (elementType, elementValue, elementCustomStyle, id) {
+        elementCustomStyle = elementCustomStyle || {};
         switch (elementType) {
             case "title":
-                return (<div className="title" key={"title-" + id.toString() } >
+                return (<div className="title" key={"title-" + id.toString() } style={elementCustomStyle} >
                     <div className="title-headline" key={"title-headline-" + id.toString()}> {elementValue.headline} </div>
                     <div className="title-description" key={"description-" + id.toString()}> {elementValue.description} </div>
                 </div>);
             case "subTitle":
-                return (<div className="subtitle" key={"subtitleTitle-" + id.toString()}>
-                    <div className="subtitle-headline" key={"subtitle-headline-" + id.toString()}> {elementValue.headline} </div>
-                    <div className="subtitle-description" key={"subtitle-description-" + id.toString()}> {elementValue.description} </div>
+                return (<div className="subtitle" key={"subtitleTitle-" + id.toString()} style={elementCustomStyle}>
+                    <div className="subtitle-headline" key={"subtitle-headline-" + id.toString()} > {elementValue.headline} </div>
+                    <div className="subtitle-description" key={"subtitle-description-" + id.toString()} > {elementValue.description} </div>
                 </div>);
             case "image":
-                return (<img className="image" key={"image-" + id.toString()} src={elementValue} alt="" >
+                return (<img className="image" key={"image-" + id.toString()} src={elementValue} alt=""  style={elementCustomStyle}>
                 </img>);
             case "images":
-                return (<ImageGallery images={elementValue} id={id} key={"image-gallary" + id.toString()}> </ImageGallery>);
+                return (<ImageGallery images={elementValue} id={id} key={"image-gallary" + id.toString()} style={elementCustomStyle}> </ImageGallery>);
             case "group":
-                let groupItems =  elementValue.map((element, index) => renderSpecificIElement(element.type, element.value,id + "-" + index));
-                return <div className="group" key={"group-" + id}> {groupItems} </div>;
+                let groupItems =  elementValue.map((element, index) => renderSpecificIElement(element.type, element.value, element.customStyle ,id + "-" + index));
+                return <div className="group" key={"group-" + id} style={elementCustomStyle}> {groupItems} </div>;
             default:
                 return (<div> </div>);
         }
