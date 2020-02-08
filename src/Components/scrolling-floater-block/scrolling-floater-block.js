@@ -2,12 +2,15 @@ import React from 'react';
 import {useRef, useLayoutEffect, useState} from 'react'
 import './scrolling-floater-block.css'
 import { withRouter } from "react-router";
+import useWindowSize from "../../Hooks/windows-size";
 
 function ScrollingFloaterBlock(props) {
     // eslint-disable-next-line no-useless-constructor
     const floaterPlaceHolder = useRef(null);
     const floater = useRef(null);
     const [floaterStyle, setFloaterStyle] = useState({top: 0});
+    const windowsSize = useWindowSize();
+    const BREAKING_BLOCK_THRESHOLD = 800;
 
     function scrollingCallBack() {
 
@@ -44,47 +47,18 @@ function ScrollingFloaterBlock(props) {
                 return <div className="text"> {props.value.content.value} </div>;
             case "clickableImages":
                 return props.value.content.value.map(value => {
-                    let imageStyle = {
-                        "backgroundImage": 'url(' + value.image.regularImage + ')'
-                    };
-                    return (<div className="image" key={value.name} style={imageStyle} >
-                        { value.additionalInfo &&
-                                        <div className="more"
-                                             onClick={() => props.history.push('/additional-info/' + value.name)}> more
-                                            <div>
-
-                                            </div>
-                                        </div>
-                                    }
-                    </div>);
-                    // const srcset = value.image.regularImage + ' 530w, ' + value.image.smallImage + ' 240w';
-                    // const sizes = "(min-width 240px) 240px, 100vw";
-                    //
-                    // return (
-                    //         <img className="image" key={value.name} srcSet={srcset} sizes={sizes}>
-                    //         </img>
-                    //     );
-
-                    // return (
-                    //     <div className="image-wrapper">
-                    //     <img className="image" key={value.name} srcSet={srcset} sizes={sizes}>
-                    //     </img>
-                    //         { value.additionalInfo &&
-                    //             <div className="more"
-                    //                  onClick={() => props.history.push('/additional-info/' + value.name)}> more
-                    //                 <div>
-                    //
-                    //                 </div>
-                    //             </div>
-                    //         }
-                    //
-                    //     </div>);
+                    return (<div className={"image"} key={value.name}>
+                                <picture>
+                                    <source media={"(orientation: portrait)"} srcSet={value.image.smallImage}/>
+                                    <img src={value.image.regularImage} alt={""} />
+                                </picture>
+                           </div>);
                 })
         }
     }
 
     return (
-        <div className="scrolling-floater-block" name={props.value.name}>
+        <div className={"scrolling-floater-block " + (windowsSize.width <= BREAKING_BLOCK_THRESHOLD ? "break" : "")} name={props.value.name}>
             <div className="scrolling-floater-placeholder" ref={floaterPlaceHolder}>
                 <div className="scrolling-floater" ref={floater} style={floaterStyle}>
                     <div className="container" style={props.value.containerStyle}>
