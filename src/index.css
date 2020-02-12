@@ -1,16 +1,4 @@
 @font-face {
-  font-family: Roboto-Regular;
-  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
-  font-style: normal;
-}
-
-@font-face {
-  font-family: RobotoSlab-Thin;
-  src: url("/fonts/RobotoSlab-Thin.ttf") format("truetype");
-  font-style: normal;
-}
-
-@font-face {
   font-family: PTSerif-Regular;
   src: url("/fonts/PTSerif-Regular.ttf") format("truetype");
   font-style: normal;
@@ -36,7 +24,7 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto-Regular',serif;
+  font-family: 'SourceSans-Regular',serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;

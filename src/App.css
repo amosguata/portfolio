@@ -4,7 +4,7 @@
 .headline {
   background-color: white;
   color: black;
-  font-family: "RobotoSlab-Thin";
+  font-family: PTSerif-Regular, serif;
   font-size: 24px;
   text-transform: uppercase;
   cursor: default;
@@ -25,7 +25,15 @@
   text-align: left;
   flex-grow: 999;
   flex-shrink: 0;
-  font-size: 42px;
+  text-transform: capitalize;
+}
+
+.headline .text .title {
+  font-size: 10vh;
+}
+
+.headline .text .description {
+  font-size: 3vh;
 }
 
 .headline .items {
@@ -37,10 +45,20 @@
   text-transform: capitalize;
 }
 
+.headline .items .icon {
+  width: 10px;
+
+}
+
 .headline .items li {
   cursor: pointer;
   text-transform: lowercase;
   border-bottom-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
 }
 
 .headline .items li:hover span {

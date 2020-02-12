@@ -72,10 +72,16 @@ import stoolsSmall from '../Images/smallImages/stools.jpg'
 import toasterSmall from '../Images/smallImages/toaster.jpg'
 import siloSmall from '../Images/smallImages/silo.jpg'
 
+import menuIcon1 from '../Images/menuIcons/menu-icon (1).svg'
+import menuIcon2 from '../Images/menuIcons/menu-icon (2).svg'
+import menuIcon3 from '../Images/menuIcons/menu-icon (3).svg'
+import menuIcon4 from '../Images/menuIcons/menu-icon (4).svg'
+import menuIcon5 from '../Images/menuIcons/menu-icon (5).svg'
+
 
 export const portfolioData = {
-    headline: "Klil Horesh \n\n" +
-        "Industrial Designer",
+    headline: "Klil Horesh",
+    description: "Industrial Designer",
     logo: logo,
     blocks: [{
         name: "about",
@@ -84,14 +90,33 @@ export const portfolioData = {
         content: {
             contentType: "text",
             value: (
-                <p>
-                    Hello, <br/>
-                    <span style={{"fontWeight": "bold"}}> My name is klil, I am a designer from israel living in Tel aviv. </span> <br/> <br/>
-                    Graduated from the Shenkar College of Engineering & Design and received my B.Des. degree in industrial design. <br/> <br/>
-                    I aspire to make my design associated with humane feelings and experiences, and I look around me to observe the relationship between people and their objects in order to learn how can we use the great power of design more effectively. <br/> <br/>
-                    Thanks for stopping by.
-                </p>)
-        }
+                <div>
+                    <p style={{"fontSize": "4vh"}}> My name is Klil, I am a designer from Israel living in Tel aviv. </p>
+                    <p>I aspire to make my design to be user centered and to associated with
+                          humane feelings and experiences, and I look around me to observe the
+                          relationship between people and their objects in order to learn how can
+                          we use the great power of design more effectively.</p>
+                    <p style={{"display": "flex"}}>
+                        <span style={{"min-width": "100px"}}> Education </span>
+                        <div>
+                            <div style={{"marginBottom": "1vh"}}> <div  style={{"fontWeight": "bold"}}> B.Des Of Industrial Design Shenkar College of Engineering and Design </div> <div> Tel Aviv 2012 - 2016 </div> </div>
+                            <div style={{"fontWeight": "bold"}} > Exchange Student Universität der Künste </div> <div> Berlin 2015  </div>
+                        </div>
+                    </p>
+                    <p style={{"display": "flex"}}>
+                        <span style={{"min-width": "100px"}}> skills </span>
+                        <div>
+                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontWeight": "bold"}}> CAD Modeling </span> Solidworks, Rhinoceros 3D  </div>
+                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontWeight": "bold"}}> Rendering </span>  Keyshot  </div>
+                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontWeight": "bold"}}> Adobe </span> Illustrator, Photoshop, InDesign </div>
+                            <div style={{"marginBottom": "1vh"}}> <span  style={{"fontWeight": "bold"}}> Model Making </span> </div>
+                            <div> <span  style={{"fontWeight": "bold"}}> Hand Sketching </span> </div>
+                        </div>
+                    </p>
+                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer"}}> See My full CV </a> </div>
+                </div>)
+        },
+        icon: menuIcon1
     },
         {
             name: "work",
@@ -334,7 +359,8 @@ export const portfolioData = {
                         additionalInfo: null
                     }
                 ]
-            }
+            },
+            icon: menuIcon2
         },
         {
             name: "contact",
@@ -342,10 +368,14 @@ export const portfolioData = {
             textStyle: {"color" : "white"},
             content: {
                 contentType: "text",
-                value: (<p>
-                    <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a>
-                </p>)
-            }
+                value: (<div style={{"display": "flex", "flex-direction": "column", "justifyContent": "center","alignItems": "flex-start"}}>
+                            <p style={{"font-size": "34px"}}> Lets's talk</p>
+                            <div><img style={{"width": "15px", "margin-right": "10px"}} src={menuIcon4}/> <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a></div>
+                            <div> <img style={{"width": "15px", "margin-right": "10px"}} src={menuIcon3}/> <span style={{"whiteSpace": "pre"}}>+972 52 6053642 </span></div>
+                            <div style={{"display": "flex", "alignItems": "center"}}> <img style={{"width": "15px", "margin-right": "10px", "top": "20px"}} src={menuIcon5}/> Tel Aviv, Israel </div>
+                        </div>)
+            },
+            icon: menuIcon3
         }
     ]
 };

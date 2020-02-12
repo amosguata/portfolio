@@ -18,11 +18,15 @@ class App extends React.Component {
 
                 <div className="headline">
                     <img className="logo" src={this.state.logo} alt="Logo"/>
-                    <div className="text">{this.state.headline}</div>
+                    <div className="text">
+                        <div className="title">{this.state.headline}</div>
+                        <div className="description">{this.state.description}</div>
+                    </div>
                     <ul className="items">
                         {
                             this.state.blocks.map(block =>
                                 <li key={block.name}>
+                                    <img className={"icon"} src={block.icon} />
                                     <Link to={block.name} smooth={true} offset={0} duration={500}>
                                         <span className="underline">{block.name.substring(0,1)}</span>{block.name.substring(1)}
                                     </Link>

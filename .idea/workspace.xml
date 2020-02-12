@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
+      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (2).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (3).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (4).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (5).svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -14,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -216,7 +222,12 @@
       <workItem from="1581182121557" duration="1786000" />
       <workItem from="1581183926909" duration="1815000" />
       <workItem from="1581185790361" duration="2157000" />
-      <workItem from="1581188157758" duration="1055000" />
+      <workItem from="1581188157758" duration="1892000" />
+      <workItem from="1581190122320" duration="1791000" />
+      <workItem from="1581191931321" duration="1305000" />
+      <workItem from="1581541437727" duration="1788000" />
+      <workItem from="1581543287916" duration="1785000" />
+      <workItem from="1581545117194" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

@@ -26,12 +26,15 @@
 }
 
 .scroll-section .text {
-    padding: 5vw;
+    padding: 2vh 5.5vw;
     font-weight: 500;
     text-align: left;
     font-size: 16px;
     line-height: 1.75em;
     max-height: 100vh;
+    height:100%;
+    display: flex;
+    align-items: center;
 }
 
 .text a {
@@ -98,7 +101,7 @@
 
 
 .scrolling-floater .container .title {
-    text-transform:uppercase;
-    font-family: "RobotoSlab-Thin";
+    text-transform: capitalize;
+    font-family: PTSerif-Regular, serif;
 }
 
