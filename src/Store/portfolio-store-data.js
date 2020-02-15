@@ -363,11 +363,11 @@ export const portfolioData = {
                         name: "toaster",
                         additionalInfo: null
                     },
-                    {
-                        image: { regularImage: headphons, smallImage: headphons },
-                        name: "headphons",
-                        additionalInfo: null
-                    }
+                    // {
+                    //     image: { regularImage: headphons, smallImage: headphons },
+                    //     name: "headphons",
+                    //     additionalInfo: null
+                    // }
                 ]
             },
             icon: menuIcon2
