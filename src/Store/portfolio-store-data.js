@@ -78,7 +78,6 @@ import menuIcon3 from '../Images/menuIcons/menu-icon (3).svg'
 import menuIcon4 from '../Images/menuIcons/menu-icon (4).svg'
 import menuIcon5 from '../Images/menuIcons/menu-icon (5).svg'
 
-
 export const portfolioData = {
     headline: "Klil Horesh",
     description: "Industrial Designer",
@@ -113,7 +112,7 @@ export const portfolioData = {
                             <div> <span  style={{"fontWeight": "bold"}}> Hand Sketching </span> </div>
                         </div>
                     </p>
-                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer"}}> See My full CV </a> </div>
+                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer"}}> See My full CV </a> </div>
                 </div>)
         },
         icon: menuIcon1

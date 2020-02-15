@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
-      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (2).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (3).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (4).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (5).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/CV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -58,19 +54,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\docs" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\fonts" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\gallary" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stools" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stool" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\images" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\chair" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\kettel" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\bowl" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\brush" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\fonts" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\gallary" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stools" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stool" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,7 +223,8 @@
       <workItem from="1581191931321" duration="1305000" />
       <workItem from="1581541437727" duration="1788000" />
       <workItem from="1581543287916" duration="1785000" />
-      <workItem from="1581545117194" duration="1128000" />
+      <workItem from="1581545117194" duration="1709000" />
+      <workItem from="1581712867244" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>
