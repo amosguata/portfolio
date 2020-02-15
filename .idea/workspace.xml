@@ -14,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -226,7 +225,8 @@
       <workItem from="1581712867244" duration="20000" />
       <workItem from="1581785529849" duration="1789000" />
       <workItem from="1581787345671" duration="1714000" />
-      <workItem from="1581789170894" duration="9000" />
+      <workItem from="1581789170894" duration="1792000" />
+      <workItem from="1581793219720" duration="425000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

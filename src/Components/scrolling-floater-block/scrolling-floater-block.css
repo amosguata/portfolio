@@ -49,6 +49,8 @@
     justify-content: center;
     align-items: flex-end;
     overflow: hidden;
+    position: relative;
+    cursor: pointer;
 }
 
 .scrolling-floater-block .scroll-section .image picture {
@@ -68,27 +70,28 @@
 
 .more {
     color: white;
-    width: 100px;
     cursor: pointer;
-    padding: 18px;
-    opacity:0;
-    font-size: 18px;
+    padding: 8px 20px;
+    background:0;
+    font-size: 16px;
     transition:all 0.8s ease;
     text-transform: capitalize;
     text-align: center;
-    background-color: black;
-    margin-bottom: 30px;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top: 85vh;
+    border: solid 1px white;
+    opacity: 0;
 }
 
-.more .cover {
-
-}
 .image:hover  .more {
-    opacity:0.5 ;
+    background-color: rgba(0,0,0,0.2);
+    opacity: 1;
 }
 
 .more:hover {
-    opacity:1!important;
+    background-color: rgba(0,0,0,0.5) !important;
+    opacity: 1 !important;
 }
 
 .scrolling-floater .container {
