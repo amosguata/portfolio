@@ -132,7 +132,7 @@ export const portfolioData = {
                         type: "title",
                         value: {
                             headline: "Silo",
-                            description: "Simple vacuum-sealing container system that keeps food fresher, longer."
+                            description: "Simple vacuum-sealing container system for the home kitchen that keeps food fresher, longer."
                         }
                     },
                          {
