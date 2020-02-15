@@ -59,3 +59,21 @@
     white-space: pre-line;
     flex: 3 3 65%;
 }
+
+.additional-info-content .button-link-container {
+    width: 65vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.additional-info-content .button-link-container .button-link{
+    border: 1px solid #B0B0B0;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family:  SourceSans-Bold, serif;
+    margin-top: 4vh;
+    padding: 3px 6px;
+}

@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/prixima-nova-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/prixima-nova-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/additional-info/additional-info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/additional-info/additional-info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/additional-info/additional-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/additional-info/additional-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,19 +55,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\docs" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\fonts" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\gallary" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stools" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stool" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\images" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\chair" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\kettel" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\bowl" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\brush" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\docs" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\fonts" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\gallary" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stools" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stool" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,7 +226,8 @@
       <workItem from="1581543287916" duration="1785000" />
       <workItem from="1581545117194" duration="1709000" />
       <workItem from="1581712867244" duration="20000" />
-      <workItem from="1581785529849" duration="353000" />
+      <workItem from="1581785529849" duration="1789000" />
+      <workItem from="1581787345671" duration="1247000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

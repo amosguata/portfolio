@@ -112,7 +112,7 @@ export const portfolioData = {
                             <div> <span  style={{"fontWeight": "bold"}}> Hand Sketching </span> </div>
                         </div>
                     </p>
-                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer"}}> See My full CV </a> </div>
+                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer", "text-decoration": "none"}}> See My full CV </a> </div>
                 </div>)
         },
         icon: menuIcon1
@@ -128,17 +128,28 @@ export const portfolioData = {
                     name: "silo",
                     additionalInfo:
                         [
-                         {
-                        type: "title",
-                        value: {
-                            headline: "Silo",
-                            description: "Simple vacuum-sealing container system for the home kitchen that keeps food fresher, longer."
-                        }
-                    },
+                            {
+                                type: "group",
+                                value: [{
+                                    type: "title",
+                                    value: {
+                                        headline: "Silo",
+                                        description: "Simple vacuum-sealing container system for the home kitchen that keeps food fresher, longer."
+                                    }
+                                },
+                                    {
+                                        type: "link-button",
+                                        value: {
+                                            url: "https://www.heysilo.com/",
+                                            text: "Launch Website"
+                                        }
+                                    }]
+                            }
+                         ,
                          {
                                 type: "image",
                                 value: siloOpeningImage
-                            },
+                         },
                          {
                                 type: "subTitle",
                                 value: {
