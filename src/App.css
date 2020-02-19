@@ -65,10 +65,6 @@
   margin-right: 50px;
 }
 
-.headline .items li:hover span {
-  border-bottom-color: rgb(255, 11, 154) ;
-}
-
 .headline .items li .underline {
   text-transform: uppercase;
 }

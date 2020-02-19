@@ -84,7 +84,7 @@ export const portfolioData = {
     logo: logo,
     blocks: [{
         name: "about",
-        containerStyle:{ "backgroundColor" :  "#FF0B9A"},
+        containerStyle:{ "backgroundColor" :  "#212121"},
         textStyle: {"color" : "white"},
         content: {
             contentType: "text",
@@ -374,12 +374,12 @@ export const portfolioData = {
         },
         {
             name: "contact",
-            containerStyle:{ "backgroundColor" :  "#1A1A1A"},
+            containerStyle:{ "backgroundColor" :  "#212121"},
             textStyle: {"color" : "white"},
             content: {
                 contentType: "text",
                 value: (<div style={{"display": "flex", "flex-direction": "column", "justifyContent": "center","alignItems": "flex-start"}}>
-                            <p style={{"font-size": "34px"}}> Lets's talk</p>
+                            <p style={{"font-size": "50px", "fontFamily": "PTSerif-Regular, serif"}}> Lets's talk</p>
                             <div><img style={{"width": "15px", "margin-right": "10px"}} src={menuIcon4}/> <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a></div>
                             <div> <img style={{"width": "15px", "margin-right": "10px"}} src={menuIcon3}/> <span style={{"whiteSpace": "pre"}}>+972 52 6053642 </span></div>
                             <div style={{"display": "flex", "alignItems": "center"}}> <img style={{"width": "15px", "margin-right": "10px", "top": "20px"}} src={menuIcon5}/> Tel Aviv, Israel </div>
