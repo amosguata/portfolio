@@ -15,7 +15,6 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-
                 <div className="headline">
                     <img className="logo" src={this.state.logo} alt="Logo"/>
                     <div className="text">

@@ -112,7 +112,7 @@ export const portfolioData = {
                             <div> <span  style={{"fontWeight": "bold"}}> Hand Sketching </span> </div>
                         </div>
                     </p>
-                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer", "text-decoration": "none"}}> See My full CV </a> </div>
+                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} target="_blank" style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer", "text-decoration": "none"}}> See My full CV </a> </div>
                 </div>)
         },
         icon: menuIcon1

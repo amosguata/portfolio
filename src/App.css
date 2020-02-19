@@ -5,7 +5,7 @@
   background-color: white;
   color: black;
   font-family: PTSerif-Regular, serif;
-  font-size: 24px;
+  font-size: 16px;
   text-transform: uppercase;
   cursor: default;
   white-space: pre-wrap;
@@ -15,9 +15,9 @@
 }
 
 .headline .logo {
-  width: 30px;
+  width: 20px;
   text-align: left;
-  margin: 7vh 0 7vh 7vw;
+  margin: 7vh 0 20vh 7vw;
 }
 
 .headline .text{
@@ -29,7 +29,7 @@
 }
 
 .headline .text .title {
-  font-size: 10vh;
+  font-size: 8vh;
 }
 
 .headline .text .description {
@@ -39,14 +39,14 @@
 .headline .items {
   list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center ;
   height: 30px;
   margin-bottom: 100px;
   text-transform: capitalize;
 }
 
 .headline .items .icon {
-  width: 10px;
+  height: 14px;
 
 }
 
@@ -61,14 +61,16 @@
   height: 60px;
 }
 
+.headline .items>*:not(:last-child) {
+  margin-right: 50px;
+}
+
 .headline .items li:hover span {
   border-bottom-color: rgb(255, 11, 154) ;
 }
 
 .headline .items li .underline {
   text-transform: uppercase;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
 }
 
 .headline .items .separator {
