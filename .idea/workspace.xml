@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/windows-size.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/windows-size.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
@@ -235,7 +236,13 @@
       <workItem from="1581803905238" duration="1791000" />
       <workItem from="1581805795102" duration="196000" />
       <workItem from="1582147705884" duration="1799000" />
-      <workItem from="1582149525219" duration="927000" />
+      <workItem from="1582149525219" duration="1729000" />
+      <workItem from="1582279907087" duration="1847000" />
+      <workItem from="1582282076771" duration="1792000" />
+      <workItem from="1582283892073" duration="1098000" />
+      <workItem from="1582292920613" duration="1066000" />
+      <workItem from="1582296637031" duration="1858000" />
+      <workItem from="1582298527082" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

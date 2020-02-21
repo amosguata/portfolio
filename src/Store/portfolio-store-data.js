@@ -2,7 +2,6 @@ import React from 'react';
 import brush from '../Images/brush.jpg'
 import bowl from '../Images/Bowl.jpg'
 import chair from '../Images/chair.jpg'
-import headphons from '../Images/headphons.jpg'
 import kettle from '../Images/kettle.jpg'
 import stool from '../Images/stool.jpg'
 import stools from '../Images/stools.jpg'
@@ -90,29 +89,33 @@ export const portfolioData = {
             contentType: "text",
             value: (
                 <div>
-                    <p style={{"fontSize": "4vh"}}> My name is Klil, I am a designer from Israel living in Tel aviv. </p>
-                    <p>I aspire to make my design to be user centered and to associated with
-                          humane feelings and experiences, and I look around me to observe the
-                          relationship between people and their objects in order to learn how can
-                          we use the great power of design more effectively.</p>
-                    <p style={{"display": "flex"}}>
-                        <span style={{"min-width": "100px"}}> Education </span>
-                        <div>
-                            <div style={{"marginBottom": "1vh"}}> <div  style={{"fontWeight": "bold"}}> B.Des Of Industrial Design Shenkar College of Engineering and Design </div> <div> Tel Aviv 2012 - 2016 </div> </div>
-                            <div style={{"fontWeight": "bold"}} > Exchange Student Universität der Künste </div> <div> Berlin 2015  </div>
-                        </div>
+                    <p style={{"fontSize": "3vh", "fontFamily": "'SourceSans-Bold',serif", "marginTop":"0vh"}}> My name is klil, I am a designer from Israel living in Tel aviv. </p>
+                    <p style={{"fontSize": "2.8vh"}} >I aspire to make my design user centered, associated with
+                          humane feelings, associated with human experiences and effective by observing the
+                          relationship between people and objects.
                     </p>
-                    <p style={{"display": "flex"}}>
-                        <span style={{"min-width": "100px"}}> skills </span>
+                    <br/>
+                    <br/>
+                    <div style={{"display": "flex", "flexDirection": "column", "fontSize": "2.5vh"}}>
+
+                        <div style={{"minWidth": "100px", "color": "#B0B0B0", "fontFamily": "'PTSerif-Regular',serif", "marginBottom": "10px"}}> Education </div>
                         <div>
-                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontWeight": "bold"}}> CAD Modeling </span> Solidworks, Rhinoceros 3D  </div>
-                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontWeight": "bold"}}> Rendering </span>  Keyshot  </div>
-                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontWeight": "bold"}}> Adobe </span> Illustrator, Photoshop, InDesign </div>
-                            <div style={{"marginBottom": "1vh"}}> <span  style={{"fontWeight": "bold"}}> Model Making </span> </div>
-                            <div> <span  style={{"fontWeight": "bold"}}> Hand Sketching </span> </div>
+                            <div style={{"marginBottom": "1vh"}}> <div  style={{"fontFamily": "'SourceSans-Bold',serif"}}> B.Des Of Industrial Design Shenkar College of Engineering and Design </div> <div> Tel Aviv 2012 - 2016 </div> </div>
+                            <div style={{"fontFamily": "'SourceSans-Bold',serif"}} > Exchange Student Universität der Künste </div> <div> Berlin 2015  </div>
                         </div>
-                    </p>
-                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} target="_blank" style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer", "text-decoration": "none"}}> See My full CV </a> </div>
+                    </div>
+                    <br/>
+                    <div style={{"display": "flex", "flexDirection": "column", "fontSize": "2.5vh"}}>
+                        <div style={{"minWidth": "100px", "color": "#B0B0B0", "fontFamily": "'PTSerif-Regular',serif", "marginBottom": "15px"}}> Skills </div>
+                        <div>
+                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> CAD Modeling </span> Solidworks, Rhinoceros 3D  </div>
+                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Rendering </span>  Keyshot  </div>
+                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Adobe </span> Illustrator, Photoshop, InDesign </div>
+                            <div style={{"marginBottom": "1vh"}}> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Model Making </span> </div>
+                            <div> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Hand Sketching </span> </div>
+                        </div>
+                    </div>
+                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} target="_blank" rel="noopener" style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer", "textDecoration": "none"}}> See My full CV </a> </div>
                 </div>)
         },
         icon: menuIcon1
@@ -378,11 +381,11 @@ export const portfolioData = {
             textStyle: {"color" : "white"},
             content: {
                 contentType: "text",
-                value: (<div style={{"display": "flex", "flex-direction": "column", "justifyContent": "center","alignItems": "flex-start"}}>
-                            <p style={{"font-size": "50px", "fontFamily": "PTSerif-Regular, serif"}}> Lets's talk</p>
-                            <div><img style={{"width": "15px", "margin-right": "10px"}} src={menuIcon4}/> <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a></div>
-                            <div> <img style={{"width": "15px", "margin-right": "10px"}} src={menuIcon3}/> <span style={{"whiteSpace": "pre"}}>+972 52 6053642 </span></div>
-                            <div style={{"display": "flex", "alignItems": "center"}}> <img style={{"width": "15px", "margin-right": "10px", "top": "20px"}} src={menuIcon5}/> Tel Aviv, Israel </div>
+                value: (<div style={{"display": "flex", "flexDirection": "column", "justifyContent": "center","alignItems": "flex-start"}}>
+                            <p style={{"fontSize": "50px", "fontFamily": "PTSerif-Regular, serif"}}> Lets's talk</p>
+                            <div><img style={{"width": "15px", "marginRight": "10px"}} src={menuIcon4}/> <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a></div>
+                            <div> <img style={{"width": "15px", "marginRight": "10px"}} src={menuIcon3}/> <span style={{"whiteSpace": "pre"}}>+972 52 6053642 </span></div>
+                            <div style={{"display": "flex", "alignItems": "center"}}> <img style={{"width": "15px", "marginRight": "10px", "top": "20px"}} src={menuIcon5}/> Tel Aviv, Israel </div>
                         </div>)
             },
             icon: menuIcon3

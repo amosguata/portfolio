@@ -25,7 +25,7 @@ class App extends React.Component {
                         {
                             this.state.blocks.map(block =>
                                 <li key={block.name}>
-                                    <img className={"icon"} src={block.icon} />
+                                    <img className={"icon"} src={block.icon} alt=""/>
                                     <Link to={block.name} smooth={true} offset={0} duration={500}>
                                         <span className="underline">{block.name.substring(0,1)}</span>{block.name.substring(1)}
                                     </Link>
