@@ -1,11 +1,23 @@
 import React from 'react';
+import {useEffect} from 'react'
 import './additional-info.css'
 import {portfolioStore} from '../../Store/portfolio-store'
 import { withRouter } from "react-router";
 import ScrollToTopOnMount from "../scroll-to-top/scroll-to-top";
 import ImageGallery from '../image-gallary/image-gallary';
+import LoadingBar from 'react-top-loading-bar';
 
 function AdditionalInfo(props) {
+    let loadingBar = null;
+
+    window.addEventListener('load', () => {
+        console.log("now!");
+        loadingBar.complete()
+    });
+
+    useEffect(() => {
+        loadingBar.continuousStart(0);
+    });
 
     function renderModalBody() {
         let works = portfolioStore.getState().blocks.find(block => block.name === "work");
@@ -15,6 +27,7 @@ function AdditionalInfo(props) {
             return renderSpecificIElement(additionalInfoItem.type, additionalInfoItem.value, additionalInfoItem.customStyle ,index);
         });
     }
+
     function renderSpecificIElement (elementType, elementValue, elementCustomStyle, id) {
         elementCustomStyle = elementCustomStyle || {};
         switch (elementType) {
@@ -43,8 +56,13 @@ function AdditionalInfo(props) {
         }
     }
 
+    function pageFinishedLoading() {
+
+    }
+
     return (<div>
                 <ScrollToTopOnMount/>
+                <LoadingBar height={3} color='black' onRef={ref => (loadingBar = ref)} />
                 <div className="additional-info-content">
                     {renderModalBody()}
                 </div>

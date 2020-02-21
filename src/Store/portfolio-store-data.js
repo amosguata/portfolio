@@ -61,6 +61,7 @@ import siloGif6 from '../Images/silo/gifs/gif (6).gif'
 import siloOpeningImage from '../Images/silo/images/opening.jpg'
 import siloDesignGuidlines from '../Images/silo/images/design-guidelines.jpg'
 import siloEarlyExploration from '../Images/silo/images/early-exploration.jpg'
+import siloExploded from '../Images/silo/images/exploded-view.jpg'
 
 import brushSmall from '../Images/smallImages/brush.jpg'
 import bowlSmall from '../Images/smallImages/bowl.jpg'
@@ -248,16 +249,24 @@ export const portfolioData = {
                             },
                          {
                             type: "image",
-                            value: siloGif4
+                            value: siloGif4,
+                             customStyle: {"width": "78vw"}
                          },
                          {
                             type: "image",
-                            value: siloGif5
+                            value: siloGif5,
+                             customStyle: {"width": "78vw"}
                          },
                          {
                             type: "image",
-                            value: siloGif6
+                            value: siloGif6,
+                            customStyle: {"width": "78vw"}
                          },
+                         {
+                            type: "image",
+                            value: siloExploded,
+                            customStyle: {"width": "78vw"}
+                        },
                     ]
                 },
                     {

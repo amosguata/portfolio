@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
+      <change afterPath="$PROJECT_DIR$/src/Images/silo/images/exploded-view.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (1).svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (1).svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (2).svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (2).svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (3).svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (3).svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (4).svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (4).svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (5).svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/menuIcons/menu-icon (5).svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/prixima-nova-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/prixima-nova-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/additional-info/additional-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/additional-info/additional-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/silo/gifs/gif (4).gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/silo/gifs/gif (4).gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/silo/gifs/gif (5).gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/silo/gifs/gif (5).gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/silo/gifs/gif (6).gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/silo/gifs/gif (6).gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/silo/images/early-exploration.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/silo/images/early-exploration.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,19 +61,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\docs" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\fonts" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\gallary" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stools" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stool" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\images" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\chair" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\kettel" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\bowl" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\brush" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\docs" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\fonts" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\gallary" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stools" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stool" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,7 +247,12 @@
       <workItem from="1582283892073" duration="1098000" />
       <workItem from="1582292920613" duration="1066000" />
       <workItem from="1582296637031" duration="1858000" />
-      <workItem from="1582298527082" duration="1507000" />
+      <workItem from="1582298527082" duration="1792000" />
+      <workItem from="1582300337408" duration="1858000" />
+      <workItem from="1582302213875" duration="1203000" />
+      <workItem from="1582324924001" duration="1793000" />
+      <workItem from="1582326736049" duration="1793000" />
+      <workItem from="1582328548622" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

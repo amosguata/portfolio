@@ -47,7 +47,6 @@ function ScrollingFloaterBlock(props) {
                 return <div className="text"> {props.value.content.value} </div>;
             case "clickableImages":
                 return props.value.content.value.map(value => {
-                    console.log(value);
                     return (<div className={"image"} key={value.name} onClick={() => value.additionalInfo && props.history.push('/additional-info/' + value.name)}>
                                 <picture>
                                     <source media={"(orientation: portrait)"} srcSet={value.image.smallImage}/>
