@@ -1,0 +1,35 @@
+.short-navigation-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.short-navigation-bar .icon {
+    height: 14px;
+}
+
+.short-navigation-bar li {
+    cursor: pointer;
+    text-transform: capitalize;
+    border-bottom-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.short-navigation-bar>*:not(:last-child) {
+    margin-right: 50px;
+}
+
+.short-navigation-bar li .underline {
+    text-transform: uppercase;
+}
+
+.short-navigation-bar .separator {
+    margin-right: 20px;
+    margin-left: 20px;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
-import {portfolioStore} from '../../Store/portfolio-store'
 import './header.css'
 import {withRouter} from "react-router-dom";
+import Logo from "../logo/logo";
  function Header (props) {
 
     function homeRedirect () {
@@ -9,7 +9,7 @@ import {withRouter} from "react-router-dom";
     }
 
     return (<div className="header">
-                <img className="logo" src={portfolioStore.getState().logo} alt="Logo" onClick={homeRedirect}/>
+                <Logo/>
             </div>);
 }
 

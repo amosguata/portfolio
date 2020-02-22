@@ -393,7 +393,7 @@ export const portfolioData = {
                 value: (<div style={{"display": "flex", "flexDirection": "column", "justifyContent": "center","alignItems": "flex-start"}}>
                             <p style={{"fontSize": "50px", "fontFamily": "PTSerif-Regular, serif"}}> Lets's talk</p>
                             <div><img style={{"width": "15px", "marginRight": "10px"}} src={menuIcon4}/> <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a></div>
-                            <div> <img style={{"width": "15px", "marginRight": "10px"}} src={menuIcon3}/> <span style={{"whiteSpace": "pre"}}>+972 52 6053642 </span></div>
+                            <div> <img style={{"width": "15px", "marginRight": "10px"}} src={menuIcon3}/> <a href="tel:+972526053642"style={{"whiteSpace": "pre"}}>+972 52 6053642 </a></div>
                             <div style={{"display": "flex", "alignItems": "center"}}> <img style={{"width": "15px", "marginRight": "10px", "top": "20px"}} src={menuIcon5}/> Tel Aviv, Israel </div>
                         </div>)
             },

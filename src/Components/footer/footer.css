@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    padding: 4vh 12vw 4vh 12vw;
+}
+
+.footer .logo {
+
+}
+
+.footer .short-navigation-bar {
+    flex-grow: 999;
+    flex-shrink: 0;
+}

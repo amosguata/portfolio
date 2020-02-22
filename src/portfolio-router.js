@@ -4,6 +4,7 @@ import AdditionalInfo from "./Components/additional-info/additional-info";
 import {BrowserRouter as Router} from "react-router-dom";
 import {Route} from 'react-router-dom'
 import Header from "./Components/header/header";
+import Footer from "./Components/footer/footer";
 
 function PortfolioRouter() {
 
@@ -13,7 +14,7 @@ function PortfolioRouter() {
                     <Route exact path="/" component={App}/>
                     <Route path="/additional-info/:workName" component={AdditionalInfo}/>
                 </div>
-                <div> footer </div>
+                <Footer> </Footer>
             </Router>)
 }
 

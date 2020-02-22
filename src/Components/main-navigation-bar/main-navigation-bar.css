@@ -1,0 +1,36 @@
+.main-navigation-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center ;
+    height: 30px;
+    margin-bottom: 100px;
+    text-transform: capitalize;
+}
+
+.main-navigation-bar .icon {
+    height: 14px;
+}
+
+.main-navigation-bar li {
+    cursor: pointer;
+    text-transform: lowercase;
+    border-bottom-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+
+.main-navigation-bar>*:not(:last-child) {
+    margin-right: 50px;
+}
+
+.main-navigation-bar li .underline {
+    text-transform: uppercase;
+}
+
+.main-navigation-bar .separator {
+    margin-right: 20px;
+    margin-left: 20px;
+}

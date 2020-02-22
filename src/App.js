@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import ScrollingFloaterBlock from "./Components/scrolling-floater-block/scrolling-floater-block";
-import {Link} from 'react-scroll';
 import {portfolioStore} from './Store/portfolio-store'
+import MainNavigationBar from "./Components/main-navigation-bar/main-navigation-bar";
 
 
 class App extends React.Component {
@@ -20,18 +20,7 @@ class App extends React.Component {
                         <div className="title">{this.state.headline}</div>
                         <div className="description">{this.state.description}</div>
                     </div>
-                    <ul className="items">
-                        {
-                            this.state.blocks.map(block =>
-                                <li key={block.name}>
-                                    <img className={"icon"} src={block.icon} alt=""/>
-                                    <Link to={block.name} smooth={true} offset={0} duration={500}>
-                                        <span className="underline">{block.name.substring(0,1)}</span>{block.name.substring(1)}
-                                    </Link>
-                                </li>
-                            )
-                        }
-                    </ul>
+                    <MainNavigationBar> </MainNavigationBar>
                 </div>
                 <div className="content">
                     {
