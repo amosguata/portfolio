@@ -16,7 +16,6 @@ class App extends React.Component {
         return (
             <div className="App">
                 <div className="headline">
-                    <img className="logo" src={this.state.logo} alt="Logo"/>
                     <div className="text">
                         <div className="title">{this.state.headline}</div>
                         <div className="description">{this.state.description}</div>

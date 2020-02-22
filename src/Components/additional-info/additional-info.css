@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12vh;
+    padding: 0 12vh 12vh 12vh;
 }
 
 .additional-info-content .group {
