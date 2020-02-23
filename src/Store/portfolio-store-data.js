@@ -116,7 +116,7 @@ export const portfolioData = {
                             <div> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Hand Sketching </span> </div>
                         </div>
                     </div>
-                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} target="_blank" rel="noopener noreferrer" style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer", "textDecoration": "none"}}> See My full CV </a> </div>
+                    <div style={{"display": "flex", "justifyContent": "center", "fontSize": "2.5vh", "marginTop": "5vh"}}>  <a href={"/docs/CV.pdf"} target="_blank" rel="noopener noreferrer" style={{ "border": "solid 0.5px black", "padding": "0 10px", "cursor": "pointer", "textDecoration": "none"}}> See My full CV </a> </div>
                 </div>)
         },
         icon: menuIcon1

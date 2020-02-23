@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/main-navigation-bar/main-navigation-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/main-navigation-bar/main-navigation-bar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
@@ -263,7 +262,8 @@
       <workItem from="1582488309065" duration="1445000" />
       <workItem from="1582490459609" duration="1945000" />
       <workItem from="1582492435889" duration="1846000" />
-      <workItem from="1582494378245" duration="1477000" />
+      <workItem from="1582494378245" duration="1796000" />
+      <workItem from="1582496194151" duration="150000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>
