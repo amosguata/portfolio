@@ -116,7 +116,7 @@ export const portfolioData = {
                             <div> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Hand Sketching </span> </div>
                         </div>
                     </div>
-                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} target="_blank" rel="noopener" style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer", "textDecoration": "none"}}> See My full CV </a> </div>
+                    <div style={{"display": "flex", "justifyContent": "center"}}>  <a href={"/docs/CV.pdf"} target="_blank" rel="noopener noreferrer" style={{ "border": "solid 0.5px black", "padding": "0 0.5vw", "cursor": "pointer", "textDecoration": "none"}}> See My full CV </a> </div>
                 </div>)
         },
         icon: menuIcon1
@@ -394,9 +394,9 @@ export const portfolioData = {
                 contentType: "text",
                 value: (<div style={{"display": "flex", "flexDirection": "column", "justifyContent": "center","alignItems": "flex-start"}}>
                             <p style={{"fontSize": "50px", "fontFamily": "PTSerif-Regular, serif"}}> Lets's talk</p>
-                            <div><img style={{"width": "15px", "marginRight": "10px"}} src={menuIcon4}/> <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a></div>
-                            <div> <img style={{"width": "15px", "marginRight": "10px"}} src={menuIcon3}/> <a href="tel:+972526053642"style={{"whiteSpace": "pre"}}>+972 52 6053642 </a></div>
-                            <div style={{"display": "flex", "alignItems": "center"}}> <img style={{"width": "15px", "marginRight": "10px", "top": "20px"}} src={menuIcon5}/> Tel Aviv, Israel </div>
+                            <div><img style={{"width": "15px", "marginRight": "10px"}} alt="" src={menuIcon4}/> <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a></div>
+                            <div> <img style={{"width": "15px", "marginRight": "10px"}} alt="" src={menuIcon3}/> <a href="tel:+972526053642"style={{"whiteSpace": "pre"}}>+972 52 6053642 </a></div>
+                            <div style={{"display": "flex", "alignItems": "center"}}> <img style={{"width": "15px", "marginRight": "10px", "top": "20px"}} alt="" src={menuIcon5}/> Tel Aviv, Israel </div>
                         </div>)
             },
             icon: menuIcon3

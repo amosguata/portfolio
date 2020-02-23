@@ -3,8 +3,8 @@ import './App.css';
 import ScrollingFloaterBlock from "./Components/scrolling-floater-block/scrolling-floater-block";
 import {portfolioStore} from './Store/portfolio-store'
 import MainNavigationBar from "./Components/main-navigation-bar/main-navigation-bar";
-import {Link, scroller} from 'react-scroll'
-import { Element } from 'react-scroll'
+import {scroller} from 'react-scroll'
+
 class App extends React.Component {
     // eslint-disable-next-line no-useless-constructor
     constructor(props) {

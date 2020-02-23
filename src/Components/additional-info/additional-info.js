@@ -52,7 +52,7 @@ function AdditionalInfo(props) {
                 let groupItems =  elementValue.map((element, index) => renderSpecificIElement(element.type, element.value, element.customStyle ,id + "-" + index));
                 return <div className="group" key={"group-" + id} style={elementCustomStyle}> {groupItems} </div>;
             case "link-button":
-                return (<div className={"button-link-container"} key={"button-" + id.toString()}> <a className={"button-link"} target="_blank" href={elementValue.url}> {elementValue.text} </a></div>);
+                return (<div className={"button-link-container"} key={"button-" + id.toString()}> <a className={"button-link"} target="_blank"  rel="noopener noreferrer" href={elementValue.url}> {elementValue.text} </a></div>);
             default:
                 return (<div> </div>);
         }

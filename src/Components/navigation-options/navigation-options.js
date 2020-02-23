@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from "react-scroll";
-import {portfolioStore} from '../../Store/portfolio-store'
 import {withRouter} from "react-router-dom";
 
 function NavigationOptions(props) {
