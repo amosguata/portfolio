@@ -3,6 +3,7 @@ import {useRef, useLayoutEffect, useState} from 'react'
 import './scrolling-floater-block.css'
 import { withRouter } from "react-router";
 import useWindowSize from "../../Hooks/windows-size";
+import { Element } from 'react-scroll'
 
 function ScrollingFloaterBlock(props) {
     // eslint-disable-next-line no-useless-constructor
@@ -59,7 +60,7 @@ function ScrollingFloaterBlock(props) {
     }
 
     return (
-        <div className={"scrolling-floater-block " + (windowsSize.width <= BREAKING_BLOCK_THRESHOLD ? "break" : "")} name={props.value.name}>
+        <Element className={"scrolling-floater-block " + (windowsSize.width <= BREAKING_BLOCK_THRESHOLD ? "break" : "")} name={props.value.name}>
             <div className="scrolling-floater-placeholder" ref={floaterPlaceHolder}>
                 <div className="scrolling-floater" ref={floater} style={floaterStyle}>
                     <div className="container" style={props.value.containerStyle}>
@@ -71,7 +72,7 @@ function ScrollingFloaterBlock(props) {
             <div className="scroll-section">
                 {renderContent()}
             </div>
-        </div>
+        </Element>
     );
 }
 

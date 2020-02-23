@@ -5,7 +5,7 @@ import {portfolioStore} from '../../Store/portfolio-store'
 
 function ShortNavigationBar(props) {
 
-    const blocks = portfolioStore.getState().blocks.map(block => ({name: block.name}));
+    const blocks = portfolioStore.getState().blocks.map(block => ({name: block.name, link: `/${block.name}`}));
 
     return (<NavigationOptions styleIdentifier={"short-navigation-bar"} navigationOptions={blocks}>
             </NavigationOptions>)

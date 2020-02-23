@@ -204,15 +204,17 @@ export const portfolioData = {
                             },
                          {
                             type: "image",
-                            value: siloGif1
+                            value: siloGif1,
+                            customStyle: {"marginBottom": "6vh"}
                         },
                          {
                             type: "image",
-                            value: siloGif2
+                            value: siloGif2,
+                            customStyle: {"marginBottom": "6vh"}
                         },
                          {
                                 type: "image",
-                                value: siloGif3
+                                value: siloGif3,
                             },
                          {
                                 type: "group",

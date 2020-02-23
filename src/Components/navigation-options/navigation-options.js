@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from "react-scroll";
 import {portfolioStore} from '../../Store/portfolio-store'
+import {withRouter} from "react-router-dom";
 
 function NavigationOptions(props) {
     return (<ul className={props.styleIdentifier}>
@@ -8,9 +9,11 @@ function NavigationOptions(props) {
             props.navigationOptions.map(block =>
                 <li key={block.name}>
                     { block.icon ? <img className={"icon"} src={block.icon} alt=""/> : null }
-                    <Link to={block.name} smooth={true} offset={0} duration={500}>
-                        { block.name }
-                    </Link>
+                    {   block.link ? <span onClick={() => props.history.push(block.link)}> {block.name} </span> :
+                        <Link to={block.name} smooth={true} offset={0} duration={1000}>
+                        {block.name}
+                        </Link>
+                    }
                 </li>
             )
         }
@@ -18,4 +21,4 @@ function NavigationOptions(props) {
 }
 
 
-export default NavigationOptions;
+export default withRouter(NavigationOptions);
