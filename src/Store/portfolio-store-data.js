@@ -393,10 +393,10 @@ export const portfolioData = {
             content: {
                 contentType: "text",
                 value: (<div style={{"display": "flex", "flexDirection": "column", "justifyContent": "center","alignItems": "flex-start"}}>
-                            <p style={{"fontSize": "50px", "fontFamily": "PTSerif-Regular, serif"}}> Lets's talk</p>
-                            <div><img style={{"width": "15px", "marginRight": "10px"}} alt="" src={menuIcon4}/> <a href="mailto:klilhoreshg@gmail.com">klilhoreshg@gmail.com</a></div>
-                            <div> <img style={{"width": "15px", "marginRight": "10px"}} alt="" src={menuIcon3}/> <a href="tel:+972526053642"style={{"whiteSpace": "pre"}}>+972 52 6053642 </a></div>
-                            <div style={{"display": "flex", "alignItems": "center"}}> <img style={{"width": "15px", "marginRight": "10px", "top": "20px"}} alt="" src={menuIcon5}/> Tel Aviv, Israel </div>
+                            <div style={{"fontSize": "8vh", "fontFamily": "PTSerif-Regular, serif", "marginBottom": "40px"}}> Lets's talk.</div>
+                            <div style={{"marginBottom": "5px", "display": "flex", "alignItems": "center"}}><img style={{"width": "2.6vh", "marginRight": "10px"}} alt="" src={menuIcon4}/> <a href="mailto:klilhoreshg@gmail.com" style={{"text-decoration": "none", "fontSize": "2.6vh"}}>klilhoreshg@gmail.com</a></div>
+                            <div style={{"marginBottom": "5px", "display": "flex", "alignItems": "center"}}> <img style={{"width": "2.6vh", "marginRight": "10px"}} alt="" src={menuIcon3}/> <a href="tel:+972526053642"style={{"whiteSpace": "pre", "text-decoration": "none", "fontSize": "2.6vh"}}>+972 52 6053642 </a></div>
+                            <div style={{"display": "flex", "alignItems": "center", "fontSize": "2.6vh"}}> <img style={{"width": "2.6vh", "marginRight": "10px", "top": "20px"}} alt="" src={menuIcon5}/> Tel Aviv, Israel </div>
                         </div>)
             },
             icon: menuIcon3

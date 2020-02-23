@@ -11,7 +11,7 @@ function ScrollingFloaterBlock(props) {
     const floater = useRef(null);
     const [floaterStyle, setFloaterStyle] = useState({top: 0});
     const windowsSize = useWindowSize();
-    const BREAKING_BLOCK_THRESHOLD = 800;
+    const BREAKING_BLOCK_THRESHOLD = 1024;
 
     function scrollingCallBack() {
 

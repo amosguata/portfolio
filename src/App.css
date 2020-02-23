@@ -28,7 +28,8 @@
 }
 
 .headline .text .description {
-  font-size: 3vh;
+  font-size: 2.8vh;
+  font-family: SourceSans-Regular, serif;
 }
 
 .App-link {
