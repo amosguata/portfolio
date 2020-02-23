@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/additional-info/additional-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/additional-info/additional-info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/navigation-options/navigation-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/navigation-options/navigation-options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/scroll-to-top/scroll-to-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scroll-to-top/scroll-to-top.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +247,7 @@
       <workItem from="1582484689446" duration="1791000" />
       <workItem from="1582486497859" duration="1793000" />
       <workItem from="1582488309065" duration="1445000" />
-      <workItem from="1582490459609" duration="571000" />
+      <workItem from="1582490459609" duration="1147000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

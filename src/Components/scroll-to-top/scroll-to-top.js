@@ -4,7 +4,7 @@ import { animateScroll } from 'react-scroll'
 class ScrollToTop extends React.Component {
     componentDidUpdate(prevProps) {
         if (this.props.location !== prevProps.location) {
-            animateScroll.scrollToTop();
+            animateScroll.scrollToTop({smooth: true, offset:0, duration:1000});
         }
     }
 

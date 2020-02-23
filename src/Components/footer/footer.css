@@ -11,3 +11,7 @@
     flex-grow: 999;
     flex-shrink: 0;
 }
+
+.footer .up {
+    cursor: pointer;
+}
