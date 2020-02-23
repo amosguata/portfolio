@@ -14,7 +14,6 @@ function PortfolioRouter() {
                     <Route exact path="/" component={App}/>
                     <Route path="/additional-info/:workName" component={AdditionalInfo}/>
                 </div>
-                <Footer> </Footer>
             </Router>)
 }
 

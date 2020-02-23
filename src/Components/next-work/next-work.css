@@ -1,0 +1,16 @@
+.next-project {
+    padding-left: 12vw;
+    padding-bottom: 12vh;
+}
+
+.next-project .work-name {
+    cursor: pointer;
+    font-size: 6vh;
+    font-family: PTSerif-Regular, serif;
+    text-transform:capitalize;
+}
+
+
+.next-project .caption {
+    cursor: pointer;
+}

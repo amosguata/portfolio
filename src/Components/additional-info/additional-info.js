@@ -6,23 +6,25 @@ import { withRouter } from "react-router";
 import ScrollToTopOnMount from "../scroll-to-top/scroll-to-top";
 import ImageGallery from '../image-gallary/image-gallary';
 import LoadingBar from 'react-top-loading-bar';
+import NextProject from "../next-work/next-work";
+import Footer from "../footer/footer";
 
 function AdditionalInfo(props) {
     let loadingBar = null;
+    let works = portfolioStore.getState().blocks.find(block => block.name === "work");
+    let storedWork = works.content.value.find(work => work.name === props.match.params.workName);
+    let workAdditionalInfo = storedWork.additionalInfo;
 
-    window.addEventListener('load', () => {
-        console.log("now!");
-        loadingBar.complete()
-    });
+    // window.addEventListener('load', () => {
+    //     console.log("now!");
+    //     loadingBar.complete()
+    // });
 
-    useEffect(() => {
-        loadingBar.continuousStart(0);
-    });
+    // useEffect(() => {
+    //     loadingBar.continuousStart(0);
+    // });
 
     function renderModalBody() {
-        let works = portfolioStore.getState().blocks.find(block => block.name === "work");
-        let storedWork = works.content.value.find(work => work.name === props.match.params.workName);
-        let workAdditionalInfo = storedWork.additionalInfo;
         return workAdditionalInfo.map((additionalInfoItem, index) => {
             return renderSpecificIElement(additionalInfoItem.type, additionalInfoItem.value, additionalInfoItem.customStyle ,index);
         });
@@ -66,6 +68,8 @@ function AdditionalInfo(props) {
                 <div className="additional-info-content">
                     {renderModalBody()}
                 </div>
+                <NextProject currentWorkName={storedWork.name}  />
+                <Footer> </Footer>
             </div>)
 }
 

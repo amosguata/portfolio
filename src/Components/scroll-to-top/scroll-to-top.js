@@ -1,11 +1,19 @@
-import { useEffect } from "react";
+import React from 'react';
+import {withRouter} from "react-router-dom";
+import { animateScroll } from 'react-scroll'
+class ScrollToTop extends React.Component {
+    componentDidUpdate(prevProps) {
+        if (this.props.location !== prevProps.location) {
+            animateScroll.scrollToTop();
+        }
+    }
 
-function ScrollToTopOnMount() {
-    useEffect(() => {
+    componentDidMount(prevProps) {
         window.scrollTo(0, 0);
-    }, []);
-
-    return null;
+    }
+    render() {
+        return null;
+    }
 }
 
-export default ScrollToTopOnMount;
+export default withRouter(ScrollToTop);
