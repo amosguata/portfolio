@@ -1,6 +1,7 @@
 .footer {
     display: flex;
     padding: 4vh 12vw 4vh 12vw;
+    align-items: center;
 }
 
 .footer .logo {
