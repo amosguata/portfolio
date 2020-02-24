@@ -12,11 +12,11 @@
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/footer/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/scrolling-floater-block/scrolling-floater-block.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/brush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/brush.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/kh_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -264,7 +264,8 @@
       <workItem from="1582492435889" duration="1846000" />
       <workItem from="1582494378245" duration="1796000" />
       <workItem from="1582496194151" duration="1324000" />
-      <workItem from="1582498002351" duration="670000" />
+      <workItem from="1582498002351" duration="1447000" />
+      <workItem from="1582575770692" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

@@ -14,6 +14,9 @@ function ScrollingFloaterBlock(props) {
     const BREAKING_BLOCK_THRESHOLD = 1024;
 
     function scrollingCallBack() {
+        if (windowsSize.width <= BREAKING_BLOCK_THRESHOLD) {
+            return;
+        }
 
         let viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
         let placeHolderBoundingClientRect = floaterPlaceHolder.current.getBoundingClientRect();
