@@ -16,7 +16,8 @@
     "react-redux": "7.1.3",
     "redux": "4.0.5",
     "react-app-polyfill": "1.0.6",
-    "react-top-loading-bar": "1.2.0"
+    "react-top-loading-bar": "1.2.0",
+    "react-ga": "2.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
