@@ -50,7 +50,7 @@ import silo3 from '../Images/silo/gallary/silo (3).jpg'
 import silo4 from '../Images/silo/gallary/silo (4).jpg'
 import silo5 from '../Images/silo/gallary/silo (5).jpg'
 import silo6 from '../Images/silo/gallary/silo (6).jpg'
-import silo7 from '../Images/silo/gallary/silo (7).jpg'
+
 
 import siloGif1 from '../Images/silo/gifs/gif (1).gif'
 import siloGif2 from '../Images/silo/gifs/gif (2).gif'
@@ -178,7 +178,7 @@ export const portfolioData = {
                             },
                          {
                             type: "images",
-                            value: [{id: "1", img: silo1}, {id: "2", img: silo2}, {id: "3", img: silo3}, {id: "4", img: silo4}, {id: "5", img: silo5}, {id: "6", img: silo6}, {id: "7", img: silo7}]
+                            value: [{id: "1", img: silo1}, {id: "2", img: silo2}, {id: "3", img: silo3}, {id: "4", img: silo4}, {id: "5", img: silo5}, {id: "6", img: silo6}]
                         },
                          {
                                 type: "subTitle",
