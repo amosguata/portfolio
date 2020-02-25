@@ -90,10 +90,8 @@ export const portfolioData = {
             contentType: "text",
             value: (
                 <div>
-                    <p style={{"fontSize": "3vh", "fontFamily": "'SourceSans-Bold',serif", "marginTop":"0vh"}}> My name is klil, I am a designer from Israel living in Tel aviv. </p>
-                    <p style={{"fontSize": "2.8vh"}} >I aspire to make my design user centered, associated with
-                          humane feelings, associated with human experiences and effective by observing the
-                          relationship between people and objects.
+                    <p style={{"fontSize": "3vh", "fontFamily": "'SourceSans-Bold',serif", "marginTop":"0vh"}}> Hi! My name is Klil,I am a designer from Israel living in Tel Aviv. </p>
+                    <p style={{"fontSize": "2.8vh"}} >I aspire to create design which is user centered and associated with human feelings and experiences. I take special care to examine the relationship between people and the objects around them in order to create powerful and effective design.
                     </p>
                     <br/>
                     <br/>
