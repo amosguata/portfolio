@@ -90,31 +90,30 @@ export const portfolioData = {
             contentType: "text",
             value: (
                 <div>
-                    <p style={{"fontSize": "3vh", "fontFamily": "'SourceSans-Bold',serif", "marginTop":"0vh"}}> Hi! My name is Klil, I am a designer from Israel living in Tel-Aviv. </p>
-                    <p style={{"fontSize": "2.8vh"}} >I aspire to create design which is user centered and associated with human feelings and experiences. I take special care to examine the relationship between people and the objects around them in order to create powerful and effective design.
-                    </p>
+                    <div style={{"fontSize": "2.5vh", "fontFamily": "'SourceSans-Bold',serif", "marginTop":"0vh", "marginBottom":"0.5vh"}}> Hi! My name is Klil, I am a designer from Israel living in Tel-Aviv. </div>
+                    <div style={{"fontSize": "2.5vh"}} >I aspire to create design which is user centered and associated with human feelings and experiences. I take special care to examine the relationship between people and the objects around them in order to create powerful and effective design.
+                    </div>
                     <br/>
                     <br/>
-                    <div style={{"display": "flex", "flexDirection": "column", "fontSize": "2.5vh"}}>
+                    <div style={{"display": "flex", "flexDirection": "column", "fontSize": "2.5vh", "marginBottom": "3vh"}}>
 
-                        <div style={{"minWidth": "100px", "color": "#B0B0B0", "fontFamily": "'PTSerif-Regular',serif", "marginBottom": "10px"}}> Education </div>
+                        <div style={{"minWidth": "100px", "color": "#B0B0B0", "fontFamily": "'PTSerif-Regular',serif", "marginBottom": "1.5vh"}}> Education </div>
                         <div>
                             <div style={{"marginBottom": "1vh"}}> <div  style={{"fontFamily": "'SourceSans-Bold',serif"}}> B.Des Of Industrial Design Shenkar College of Engineering and Design </div> <div> Tel Aviv 2012 - 2016 </div> </div>
                             <div style={{"fontFamily": "'SourceSans-Bold',serif"}} > Exchange Student Universität der Künste </div> <div> Berlin 2015  </div>
                         </div>
                     </div>
-                    <br/>
                     <div style={{"display": "flex", "flexDirection": "column", "fontSize": "2.5vh"}}>
-                        <div style={{"minWidth": "100px", "color": "#B0B0B0", "fontFamily": "'PTSerif-Regular',serif", "marginBottom": "15px"}}> Skills </div>
+                        <div style={{"minWidth": "100px", "color": "#B0B0B0", "fontFamily": "'PTSerif-Regular',serif", "marginBottom": "1.5vh"}}> Skills </div>
                         <div>
                             <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> CAD Modeling </span> Solidworks, Rhinoceros 3D  </div>
                             <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Rendering </span>  Keyshot  </div>
                             <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Adobe </span> Illustrator, Photoshop, InDesign </div>
-                            <div style={{"marginBottom": "1vh"}}> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Model Making </span> </div>
+                            <div style={{"marginBottom": "0.5vh"}}> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Model Making </span> </div>
                             <div> <span  style={{"fontFamily": "'SourceSans-Bold',serif"}}> Hand Sketching </span> </div>
                         </div>
                     </div>
-                    <div style={{"display": "flex", "justifyContent": "center", "fontSize": "2.5vh", "marginTop": "5vh"}}>  <a href={"/docs/CV.pdf"} target="_blank" rel="noopener noreferrer" style={{ "border": "solid 0.5px black", "padding": "0 10px", "cursor": "pointer", "textDecoration": "none"}}> See My full CV </a> </div>
+                    <div style={{"display": "flex", "justifyContent": "center", "fontSize": "16px", "marginTop": "5vh"}}>  <a href={"/docs/CV.pdf"} target="_blank" rel="noopener noreferrer" style={{ "border": "solid 0.5px black", "padding": "8px 20px", "cursor": "pointer", "textDecoration": "none"}}> My full CV </a> </div>
                 </div>)
         },
         icon: menuIcon1
@@ -238,7 +237,6 @@ export const portfolioData = {
                                         headline: "Early Explorations",
                                         description: "",
                                     },
-                                    customStyle: {"marginLeft": "8.5vw"}
                                 },
                                     {
                                         type: "image",
@@ -248,10 +246,23 @@ export const portfolioData = {
                                 ]
                             },
                          {
-                            type: "image",
-                            value: siloGif4,
-                             customStyle: {"width": "78vw"}
-                         },
+                            type: "group",
+                            name: "Detailed exploration",
+                            value: [
+                                {
+                                    type: "subTitle",
+                                    value: {
+                                        headline: "Detailed Explorations",
+                                        description: "",
+                                    },
+                                },
+                                {
+                                    type: "image",
+                                    value: siloGif4,
+                                    customStyle: {"width": "78vw"}
+                                },
+                            ]
+                        },
                          {
                             type: "image",
                             value: siloGif5,
@@ -263,10 +274,23 @@ export const portfolioData = {
                             customStyle: {"width": "78vw"}
                          },
                          {
-                            type: "image",
-                            value: siloExploded,
-                            customStyle: {"width": "78vw"}
-                        },
+                                type: "group",
+                                name: "Detailed exploration",
+                                value: [
+                                    {
+                                        type: "subTitle",
+                                        value: {
+                                            headline: "Mastering Complex Assembly",
+                                            description: "",
+                                        },
+                                    },
+                                    {
+                                        type: "image",
+                                        value: siloExploded,
+                                        customStyle: {"width": "78vw"}
+                                    }
+                                ]
+                            },
                     ]
                 },
                     {
