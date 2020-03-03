@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
+      <change afterPath="$PROJECT_DIR$/src/Images/silo/gifs/gif (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/silo/gifs/gif (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/silo/gifs/gif (6).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/silo/gifs/gif (4).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/silo/gifs/gif (5).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/silo/gifs/gif (6).gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -257,7 +263,8 @@
       <workItem from="1582665600835" duration="2007000" />
       <workItem from="1582667646886" duration="1845000" />
       <workItem from="1582757101149" duration="1795000" />
-      <workItem from="1583269998608" duration="873000" />
+      <workItem from="1583269998608" duration="1790000" />
+      <workItem from="1583271907539" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>

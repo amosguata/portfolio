@@ -55,9 +55,9 @@ import silo6 from '../Images/silo/gallary/silo (6).jpg'
 import siloGif1 from '../Images/silo/gifs/gif (1).gif'
 import siloGif2 from '../Images/silo/gifs/gif (2).gif'
 import siloGif3 from '../Images/silo/gifs/gif (3).gif'
-import siloGif4 from '../Images/silo/gifs/gif (4).gif'
-import siloGif5 from '../Images/silo/gifs/gif (5).gif'
-import siloGif6 from '../Images/silo/gifs/gif (6).gif'
+import siloGif4 from '../Images/silo/gifs/gif (4).png'
+import siloGif5 from '../Images/silo/gifs/gif (5).png'
+import siloGif6 from '../Images/silo/gifs/gif (6).png'
 import siloOpeningImage from '../Images/silo/images/opening.jpg'
 import siloDesignGuidlines from '../Images/silo/images/design-guidelines.jpg'
 import siloEarlyExploration from '../Images/silo/images/early-exploration.jpg'
@@ -259,19 +259,19 @@ export const portfolioData = {
                                 {
                                     type: "image",
                                     value: siloGif4,
-                                    customStyle: {"width": "78vw"}
+                                    customStyle: {"width": "80vw"}
                                 },
                             ]
                         },
                          {
                             type: "image",
                             value: siloGif5,
-                             customStyle: {"width": "78vw"}
+                             customStyle: {"width": "80vw"}
                          },
                          {
                             type: "image",
                             value: siloGif6,
-                            customStyle: {"width": "78vw"}
+                            customStyle: {"width": "80vw"}
                          },
                          {
                                 type: "group",
