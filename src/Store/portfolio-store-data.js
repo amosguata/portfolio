@@ -58,10 +58,12 @@ import siloGif3 from '../Images/silo/gifs/gif (3).gif'
 import siloGif4 from '../Images/silo/gifs/gif (4).png'
 import siloGif5 from '../Images/silo/gifs/gif (5).png'
 import siloGif6 from '../Images/silo/gifs/gif (6).png'
+
 import siloOpeningImage from '../Images/silo/images/opening.jpg'
 import siloDesignGuidlines from '../Images/silo/images/design-guidelines.jpg'
 import siloEarlyExploration from '../Images/silo/images/early-exploration.jpg'
 import siloExploded from '../Images/silo/images/exploded-view.jpg'
+import siloPatternDesign from '../Images/silo/images/pattern-design.jpg'
 
 import brushSmall from '../Images/smallImages/brush.jpg'
 import bowlSmall from '../Images/smallImages/bowl.jpg'
@@ -291,6 +293,10 @@ export const portfolioData = {
                                     }
                                 ]
                             },
+                            {
+                                type: "image",
+                                value: siloPatternDesign
+                            }
                     ]
                 },
                     {
