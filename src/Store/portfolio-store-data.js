@@ -91,7 +91,7 @@ export const portfolioData = {
             value: (
                 <div>
                     <div style={{"fontSize": "2.5vh", "fontFamily": "'SourceSans-Bold',serif", "marginTop":"0vh", "marginBottom":"0.5vh"}}> Hi! My name is Klil, I am a designer from Israel living in Tel-Aviv. </div>
-                    <div style={{"fontSize": "2.5vh"}} >I aspire to create design which is user centered and associated with human feelings and experiences. I take special care to examine the relationship between people and the objects around them in order to create powerful and effective design.
+                    <div style={{"fontSize": "2.5vh"}} >I aspire to create design which is user centered and associated with human feelings and experiences. I take special care to examine the relationship between people and the objects around them in order to better understand how to use the great power of design more effectively..
                     </div>
                     <br/>
                     <br/>
