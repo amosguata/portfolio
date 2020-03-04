@@ -261,23 +261,23 @@ export const portfolioData = {
                                 {
                                     type: "image",
                                     value: siloGif4,
-                                    customStyle: {"width": "80vw"}
+                                    customStyle: {"width": "80vw", marginBottom: "5vh"}
                                 },
+                                {
+                                    type: "image",
+                                    value: siloGif5,
+                                    customStyle: {"width": "80vw", marginBottom: "5vh"}
+                                },
+                                {
+                                    type: "image",
+                                    value: siloGif6,
+                                    customStyle: {"width": "80vw"}
+                                }
                             ]
                         },
                          {
-                            type: "image",
-                            value: siloGif5,
-                             customStyle: {"width": "80vw"}
-                         },
-                         {
-                            type: "image",
-                            value: siloGif6,
-                            customStyle: {"width": "80vw"}
-                         },
-                         {
                                 type: "group",
-                                name: "Detailed exploration",
+                                name: "Mastering Complex Assembly",
                                 value: [
                                     {
                                         type: "subTitle",
@@ -293,10 +293,10 @@ export const portfolioData = {
                                     }
                                 ]
                             },
-                            {
-                                type: "image",
-                                value: siloPatternDesign
-                            }
+                        {
+                            type: "image",
+                            value: siloPatternDesign
+                        }
                     ]
                 },
                     {

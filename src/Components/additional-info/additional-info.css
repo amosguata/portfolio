@@ -17,7 +17,7 @@
     width: 68vw;
 }
 
-.additional-info-content>*:not(:last-child) {
+.additional-info-content>* {
     margin-bottom: 12vh;
 }
 
