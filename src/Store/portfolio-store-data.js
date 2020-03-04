@@ -93,7 +93,7 @@ export const portfolioData = {
             value: (
                 <div>
                     <div style={{"fontSize": "2.5vh", "fontFamily": "'SourceSans-Bold',serif", "marginTop":"0vh", "marginBottom":"0.5vh"}}> Hi! My name is Klil, I am a designer from Israel living in Tel-Aviv. </div>
-                    <div style={{"fontSize": "2.5vh"}} >I aspire to create design which is user centered and associated with human feelings and experiences. I take special care to examine the relationship between people and the objects around them in order to better understand how to use the great power of design more effectively..
+                    <div style={{"fontSize": "2.5vh"}} >I aspire to create design which is user centered and associated with human feelings and experiences. I take special care to examine the relationship between people and the objects around them in order to better understand how to use the great power of design more effectively.
                     </div>
                     <br/>
                     <br/>
@@ -157,7 +157,7 @@ export const portfolioData = {
                                 type: "subTitle",
                                 value: {
                                     headline: "Overview",
-                                    description: "Food waste is a global epidemic." +
+                                    description: "Food waste is a global epidemic. " +
                                         "According to a recent study by Boston Consulting Group, each year 1.6 billion tons of food" +
                                         "worth about $1.2 trillion are lost or go to waste. Most of this waste happens at the" +
                                         "consumer level with more than 40% of household food going bad. "
@@ -185,7 +185,7 @@ export const portfolioData = {
                                 type: "subTitle",
                                 value: {
                                     headline: "The Problem",
-                                    description: "Food waste is a global epidemic." +
+                                    description: "Food waste is a global epidemic. " +
                                         "According to a recent study by Boston Consulting Group, each year 1.6 billion tons of food" +
                                         "worth about $1.2 trillion are lost or go to waste. Most of this waste happens at the" +
                                         "consumer level with more than 40% of household food going bad."
@@ -195,8 +195,8 @@ export const portfolioData = {
                                 type: "subTitle",
                                 value: {
                                     headline: "The Solution",
-                                    description: "simple vacuum-sealing container system that is easy to use on a daily basis and " +
-                                        "encourages the user engagement. a product that integrates with the kitchen environment " +
+                                    description: "Simple vacuum-sealing container system that is easy to use on a daily basis and " +
+                                        "encourages the user engagement. A product that integrates with the kitchen environment " +
                                         "in a smart way that takes into acount that the kitchen’s counterspace is an expensive real " +
                                         "estate. "
                                 }
