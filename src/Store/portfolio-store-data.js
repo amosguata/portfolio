@@ -6,6 +6,7 @@ import kettle from '../Images/kettle.jpg'
 import stool from '../Images/stool.jpg'
 import stools from '../Images/stools.jpg'
 import toaster from '../Images/toaster.jpg'
+import earbuds from '../Images/headphone.jpg'
 import silo from '../Images/silo.jpg'
 import logo from '../Images/logo/logo-black.png'
 import brush1 from '../Images/brush/brush (1).jpg'
@@ -79,6 +80,12 @@ import menuIcon2 from '../Images/menuIcons/menu-icon (2).svg'
 import menuIcon3 from '../Images/menuIcons/menu-icon (3).svg'
 import menuIcon4 from '../Images/menuIcons/menu-icon (4).svg'
 import menuIcon5 from '../Images/menuIcons/menu-icon (5).svg'
+
+import earbuds1 from '../Images/earbuds/earbuds (1).jpg'
+import earbuds2 from '../Images/earbuds/earbuds (2).jpg'
+import earbuds3 from '../Images/earbuds/earbuds (3).jpg'
+import earbuds4 from '../Images/earbuds/earbuds (4).jpg'
+
 
 export const portfolioData = {
     headline: "Klil Horesh",
@@ -401,15 +408,26 @@ export const portfolioData = {
                         ]
                     },
                     {
+                        image: { regularImage: earbuds, smallImage: earbuds },
+                        name: "Earbuds",
+                        additionalInfo: [{
+                            type: "title",
+                            value: {
+                                headline: "Earbuds",
+                                description: "The action of inserting the earphone into the ear is the focus in this project. I created a soft welcoming surface to lead  the finger while applying the earbud."
+                            }
+                        },
+                            {
+                                type: "images",
+                                value: [{id: "1", img: earbuds1}, {id: "2", img: earbuds2}, {id: "3", img: earbuds3}, {id: "4", img: earbuds4}]
+                            }
+                        ]
+                    },
+                    {
                         image: { regularImage: toaster, smallImage: toasterSmall },
                         name: "toaster",
                         additionalInfo: null
-                    },
-                    // {
-                    //     image: { regularImage: headphons, smallImage: headphons },
-                    //     name: "headphons",
-                    //     additionalInfo: null
-                    // }
+                    }
                 ]
             },
             icon: menuIcon2

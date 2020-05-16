@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816a7360-6851-4be6-8a32-981948db285e" name="Default Changelist" comment="changed robots file to forbid crawling this website">
+      <change afterPath="$PROJECT_DIR$/src/Images/earbuds/earbuds (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/earbuds/earbuds (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/earbuds/earbuds (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/earbuds/earbuds (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/headphone.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/additional-info/additional-info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/additional-info/additional-info.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/portfolio-store-data.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/silo/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/headphone" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,19 +45,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\docs" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\fonts" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\gallary" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stools" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\stool" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\headphone" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\images" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\chair" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\kettel" />
       <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\bowl" />
-      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\brush" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\earbuds" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\docs" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\public\fonts" />
+      <recent name="C:\Users\Amos\WebstormProjects\portfolio\src\Images\silo\gallary" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -260,7 +264,8 @@
       <workItem from="1582757101149" duration="1795000" />
       <workItem from="1583269998608" duration="1790000" />
       <workItem from="1583271907539" duration="1559000" />
-      <workItem from="1583355356986" duration="1611000" />
+      <workItem from="1583355356986" duration="1708000" />
+      <workItem from="1589637535075" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="changed web site title">
       <created>1571151461418</created>
