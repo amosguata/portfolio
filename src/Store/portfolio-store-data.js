@@ -14,7 +14,6 @@ import brush2 from '../Images/brush/brush (2).jpg'
 import brush3 from '../Images/brush/brush (3).jpg'
 import brush4 from '../Images/brush/brush (4).jpg'
 import brush5 from '../Images/brush/brush (5).jpg'
-import brush6 from '../Images/brush/brush (6).jpg'
 
 import bowl1 from '../Images/bowl/bowl (1).jpg';
 import bowl2 from '../Images/bowl/bowl (2).jpg';
