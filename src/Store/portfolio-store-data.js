@@ -201,10 +201,7 @@ export const portfolioData = {
                                 type: "subTitle",
                                 value: {
                                     headline: "The Solution",
-                                    description: "Simple vacuum-sealing container system that is easy to use on a daily basis and " +
-                                        "encourages the user engagement. A product that integrates with the kitchen environment " +
-                                        "in a smart way that takes into acount that the kitchen’s counterspace is an expensive real " +
-                                        "estate. "
+                                    description: "Simple vacuum-sealing container system that is easy to use on a daily basis and encourages the user engagement. A product that integrates smoothly into the kitchen environment while regarding kitchen counterspace as expensive real estate."
                                 }
                             },
                          {
@@ -329,8 +326,7 @@ export const portfolioData = {
                             type: "title",
                             value: {
                                 headline: "STOOLS",
-                                description: "A series of wall stools.\n" +
-                                    "During my final project in Shenkar, I created a series of stools that interact with the edges of the room and invite the seater to take a position of a side observant.\n"
+                                description: "A series of wall stools. During my final project in Shenkar, I created a series of stools that interact with the edges of the room and invite the “sitter” to observe from the sidelines."
                             }
                         },
                             {
