@@ -11,6 +11,11 @@
     width: 2.6vh;
 }
 
+
+.main-navigation-bar .menuItem:hover {
+
+}
+
 .main-navigation-bar li {
     cursor: pointer;
     text-transform: capitalize;
